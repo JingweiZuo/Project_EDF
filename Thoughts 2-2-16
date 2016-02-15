@@ -1,0 +1,5 @@
+ajout des dépendances des test (cahier de recette) - task en cours
+
+eviter répartition des tâches entrelassées (réalisation de bancs de test qui émulent les E/S , cartes FPGA, protocoles de communication...) -> Carte DE1 pour emuler protocole de communication
+
+Carte worst case (absence de carte FPGA EDF) -> DE1 - Cyclone Altera   
