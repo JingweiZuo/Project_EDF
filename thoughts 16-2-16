@@ -1,0 +1,49 @@
+edf r&d
+appelés ou proposition de leurs idée (commission).
+
+1er proj : protocol aucari (centrales enr, bas cout...)
+2eme proj : digitalisation "tableaux blancs". Update hw.
+
+tableaux de plannings (pleins)
+transition num (virtualité aug, protocole sans fils)
+cadenat connecté
+
+besoin flexible/modulaire pour les tableaux
+
+traitement parallèle FPGA -- E/S grande capa / traitement parallele
+
+planning sur tableaux blancs
+
+fpga cb : sans fils flow power 
+120 E/S
+E/S ana
+
+FPGA en shield. 40fils bus - 40 fils voisin droite - 40 fils voisin gche
+
+type archi : interface 
+chassis + carte 
+
+agrandissement ligne ou colonne facilement
+
+---
+
+taille proche d'une raspi (moins cher 
+
+---
+choix tech fpga : 
+robotique : forme facilement adaptable sur un boitier ou bras robot (modularité)
+
+---
+
+protocole sans fils avec du fpga (test de concept mac, reseau) 
+
+tech "you"? actel -> microsemi (gamme smartfusion I & II, gamme igloo(low power))
+memoire ram : lien elt logique (en général) -> consommation d'énergie grande)
+gamme igloo : techno flash : consommation beaucoup plus faible (entre x10 et x1000...)
+pas besoin de flasher ! (microcoupure -> pas de perte de fonction des fpga)
+(igloo 2 : bof pour low power)
+conso statique faible (1000 2000fois, courants de fuite)
+conso dyna (conso des clk, transistors etc)
+part conso statique dans la conso globale (syst low power : conso statique dominante)
+100x moins bon pour statique, 2x meilleur dyna  igloo1 vs igloo2)
+

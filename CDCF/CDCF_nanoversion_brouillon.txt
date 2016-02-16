@@ -1,0 +1,127 @@
+Intro
+1.Présentation générale du problème
+	1. Contexte
+	2. Enoncé du besoin
+	3. Environnement
+2.Expression fonctionnelle du besoin
+	1. Fonctions de service & fonctions contraintes
+	2. Cahier de recette
+3.Organisation du projet
+	1. Définition des tâches
+	2. Rôle des acteurs
+	3. Modalités de communication
+4.Planning et livrables
+	1. Diagramme de Gantt
+	2. Description des fournitures
+	3. Planning de livraison
+5.Confidentialité
+
+
+
+1. Présentation générale du problème
+	1. Contexte
+
+	Cela fait bientôt 40ans que les interfaces de monitoring des centrales nucléaires françaises ont été crées. Mais n'ont jamais été mis à jour depuis.
+La technologie derrière ces panneaux de boutons et voyants vieillit et perd en fiabilité, il est grand temps de faire des rénovations.
+	
+	2. Enoncé du besoin
+
+	Le projet Reactor Monitoring a pour but de mener à des rénovations d'IHM non critiques en centrale nucléaire avec des modules FPGA.
+On se propose de remplacer la technologie actuelle par des petits modules FPGA, développés par EDF, combinables dans différentes configurations.
+Les modules étant déjà existant, il s'agit de programmer les IP qui serviront à la création des différents arrangements de circuits. Les cartes doivent être capable de discuter entre elles, acquérir des données venant des capteurs et enfin, communiquer avec l'IHM déjà présente.
+
+	3. Environnement
+
+	Le produit final se trouvera derrière des panneaux d'IHM. Sous condition normales (20-25°C, température et humidité normales).
+Il devra être alimenté par les moyens mis à disposition par les panneaux actuels. 
+La carte devra s'adapter aux assemblages déjà existants pour son montage.
+Elle devra également être accessible facilement pour rendre plus simple la maintenance ou la mise à jour de cette dernière.
+Lors d'une mise à jour, la carte ne devra pas avoir besoin d'être mise en dehors du reste du système. En effet, la carte ne doit pas produire de défaut sur les autres cartes si elle est reprogrammée (cela pouvant conduire à une mauvaise lecture du monitoring et par conséquent une mauvaise prise de décision).
+
+2. Expression fonctionnelle du besoin
+	1. Méthode APTE
+		a. Bête à cornes
+		b. Diagramme Pieuvre
+		c. Diagramme F.A.S.T.
+	2. Cahier de recettes
+
+	en fonction de la fiabilité de la communication
+	en fonction du nombre d'IP et de configurations productibles
+
+3. Organisation du projet
+	1. Définition des tâches
+		a. Scénario avec FPGA "Carte Bancaire"
+		b. Scénario Worst Case (sans FPGA "Carte Bancaire")
+-1: Définition du protocole de communication inter carte
+-2: Définition des IP nécessaires pour remplir le besoin
+-3: Programmation des IP
+-4: Création des 2 interfaces de test (boutons/LED et analogique)
+-5: Phase de test (communication intercarte, test des I/O...)
+	i) test bontons led
+	ii) test analogique
+	iii) discussion intercarte
+	iv) reprogrammation on the run
+
+	2. Rôle des acteurs
+Première phase de développement : 
+	-Programmation des IP (2 personnes)
+	-Réalisation des situations de test, testbench et réalisation des documentations (1 personne)
+Deuxième phase : 
+	-Réalisation d'un PCB avec 8entrées analogiques(type shield ?) (1 personne)
+	-Réalisation des 2 IHM (circuit sur plaquette de dev) (1 personne)
+Phase de Test :
+	-Réalisation test i) (1personne)
+	-Réalisation test ii) (1personne)
+	--------------------------------------
+	-Réalisation test iii, iv) (2personne)
+	--Production de la documentation, des observations et résultats de test, comparaison avec le cahier de recette (1personne)
+
+	3. Modalités de communication
+		a. BrainStorming début de séance
+
+	Pour pouvoir faire un suivi des tâches de façon micro, on instaure de petites
+réunion (~10-15"). Elles servent a faire converger les tâches du groupe sur une séance. Elles permettent aussi de s'accorder sur un problème.
+
+		b. Rapport de BrainStorming début de séance
+	
+	A la suite des brainstorming de début de séance, il sera produit un court résumé de l'entretien.
+
+		c. Rapport d'activité
+
+	Sur le dossier partagé par le groupe, chaque membre, devras, de façon hebdomadaire,
+témoigner de ses activités durant la semaine passée. 
+
+		d. Rapport d'expérience  
+
+	Lors de la phase de test, des rapports d'expérience seront rédigés afin de
+récupérer toutes les informations, remarques et mises aux points sur ces dernières. Cela a pour but de faciliter la restitution lors de l'appreciation du cahier de recette.
+
+4. Planning et livrables
+	1. Diagramme de Gantt
+	2. Description des fournitures
+		a. Cahier des Charges
+	
+	Le présent cahier des charges faisant la description du besoin ainsi que la description technique du projet
+		
+		b. Cahier de Recette
+	
+	Après que toutes les expériences aient été réalisés, le cahier de recette pourra enfin etre complété et pourra rendre compte
+des critères d'appréciations du projet
+
+		c. Notice développeur 
+
+	Une notice développeur sera produite pour que des implémentations d'IP futures puissent être facilitées.
+
+		d. Notice utilisateur 
+
+	Une notice utilisateur sera produite pour pouvoir installer et câbler des cartes.
+ 
+		e. Prototype d'IHM  
+
+	Un fois les tests achevés, les prototypes d'IHM ainsi crées pourront servir au client lors d'implémentation d'IP futures.
+
+	3. Planning de livraison
+
+5. Confidentialité 
+
+	Le travail ne sera pas rendu publique sur demande du client.
