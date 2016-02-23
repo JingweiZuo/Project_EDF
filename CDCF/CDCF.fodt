@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><dc:date>2016-02-16T16:40:16.879824544</dc:date><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><meta:editing-duration>PT5H15M6S</meta:editing-duration><meta:editing-cycles>3</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:image-count="10" meta:object-count="0" meta:page-count="13" meta:paragraph-count="77" meta:word-count="756" meta:character-count="4819" meta:non-whitespace-character-count="4140"/></office:meta>
+ <office:meta><dc:date>2016-02-16T16:50:56.809429385</dc:date><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><meta:editing-duration>PT5H25M45S</meta:editing-duration><meta:editing-cycles>4</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:image-count="10" meta:object-count="0" meta:page-count="13" meta:paragraph-count="78" meta:word-count="757" meta:character-count="4823" meta:non-whitespace-character-count="4144"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">80883</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">55695</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">49691</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">23973</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">27095</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">100683</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">5593</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">84316</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">80883</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">55695</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">49689</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">104854</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">79666</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -296,162 +296,168 @@
   <style:style style:name="Table1.B2" style:family="table-cell">
    <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #ffffff" fo:border-right="0.05pt solid #ffffff" fo:border-top="none" fo:border-bottom="0.05pt solid #ffffff"/>
   </style:style>
-  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-   <style:text-properties style:font-name="DejaVu Sans"/>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Footer">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
   </style:style>
   <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties style:font-name="DejaVu Sans"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="35pt" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0006b36e" style:font-size-asian="35pt" style:font-weight-asian="bold" style:font-size-complex="35pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0006b36e"/>
-  </style:style>
   <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
    <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0006b36e"/>
   </style:style>
   <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0008754b"/>
+   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0006b36e"/>
   </style:style>
   <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="000984b6"/>
+   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0008754b"/>
   </style:style>
   <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="000984b6"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="28pt" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0006b36e" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
   </style:style>
-  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="20pt" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0006b36e" style:font-name-asian="Droid Sans Fallback1" style:font-size-asian="20pt" style:font-name-complex="Liberation Mono" style:font-size-complex="20pt"/>
   </style:style>
-  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="20pt" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0006b36e" style:font-name-asian="Droid Sans Fallback1" style:font-size-asian="20pt" style:font-name-complex="Liberation Mono" style:font-size-complex="20pt"/>
   </style:style>
-  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba"/>
   </style:style>
-  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="00086dba" officeooo:paragraph-rsid="0008754b"/>
   </style:style>
-  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="00086dba" officeooo:paragraph-rsid="000984b6"/>
   </style:style>
-  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0008754b" officeooo:paragraph-rsid="0008754b"/>
   </style:style>
-  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="000984b6" officeooo:paragraph-rsid="000984b6"/>
   </style:style>
-  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="12pt" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="00086dba" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="11pt" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
-  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="11pt" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0008754b" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
-  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="11pt" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="000984b6" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
-  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="11pt" officeooo:rsid="00086dba" officeooo:paragraph-rsid="000984b6" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
-  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="11pt" officeooo:rsid="000984b6" officeooo:paragraph-rsid="000984b6" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
-  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="11pt" officeooo:rsid="000e66e1" officeooo:paragraph-rsid="000e66e1" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
-  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="13pt" officeooo:rsid="0008754b" officeooo:paragraph-rsid="0008754b" style:font-size-asian="13pt" style:font-size-complex="13pt"/>
   </style:style>
-  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="13pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="00086dba" officeooo:paragraph-rsid="0008754b" style:font-size-asian="13pt" style:font-size-complex="13pt"/>
   </style:style>
-  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
+  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="13pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="00086dba" officeooo:paragraph-rsid="000984b6" style:font-size-asian="13pt" style:font-size-complex="13pt"/>
   </style:style>
-  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="10pt" officeooo:rsid="0008754b" officeooo:paragraph-rsid="0008754b" style:font-size-asian="8.75pt" style:font-size-complex="10pt"/>
   </style:style>
-  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="000e2c02" officeooo:paragraph-rsid="000e2c02"/>
   </style:style>
-  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties style:font-name="DejaVu Sans" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="00086dba" officeooo:paragraph-rsid="000984b6"/>
   </style:style>
-  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
    <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="15pt" fo:font-weight="bold" officeooo:rsid="000ab720" officeooo:paragraph-rsid="000ab720" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-size-complex="15pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
    <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="15pt" fo:font-weight="bold" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-size-complex="15pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
    <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="15pt" fo:font-weight="bold" officeooo:rsid="0008754b" officeooo:paragraph-rsid="0008754b" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-size-complex="15pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
    <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="15pt" fo:font-weight="bold" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-size-complex="15pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
    <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="15pt" fo:font-weight="bold" officeooo:rsid="00086dba" officeooo:paragraph-rsid="0008754b" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-size-complex="15pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="15pt" fo:font-weight="bold" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-size-complex="15pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="">
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="">
    <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="15pt" fo:font-weight="bold" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-size-complex="15pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="35pt" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0006b36e" style:font-size-asian="35pt" style:font-weight-asian="bold" style:font-size-complex="35pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
    <style:text-properties fo:color="#3465a4" style:font-name="DejaVu Sans" fo:font-size="20pt" fo:font-weight="bold" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba" style:font-size-asian="20pt" style:font-weight-asian="bold" style:font-size-complex="20pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties fo:color="#000000" style:font-name="DejaVu Sans" fo:font-size="11pt" fo:font-weight="normal" officeooo:rsid="000e66e1" officeooo:paragraph-rsid="000e66e1" style:font-size-asian="11pt" style:font-weight-asian="normal" style:font-size-complex="11pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-   <style:text-properties fo:color="#000000" style:font-name="DejaVu Sans" fo:font-size="11pt" fo:font-weight="normal" officeooo:rsid="00132538" officeooo:paragraph-rsid="00132538" style:font-size-asian="11pt" style:font-weight-asian="normal" style:font-size-complex="11pt" style:font-weight-complex="normal"/>
-  </style:style>
   <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0006b36e"/>
+   <style:text-properties fo:color="#000000" style:font-name="DejaVu Sans" fo:font-size="11pt" fo:font-weight="normal" officeooo:rsid="00132538" officeooo:paragraph-rsid="00132538" style:font-size-asian="11pt" style:font-weight-asian="normal" style:font-size-complex="11pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="00086dba"/>
+   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="0006b36e"/>
   </style:style>
   <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0008754b" officeooo:paragraph-rsid="0008754b"/>
+   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0006b36e" officeooo:paragraph-rsid="00086dba"/>
   </style:style>
   <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="15pt" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba" style:font-size-asian="15pt" style:font-size-complex="15pt"/>
+   <style:text-properties style:font-name="DejaVu Sans" officeooo:rsid="0008754b" officeooo:paragraph-rsid="0008754b"/>
   </style:style>
   <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="15pt" fo:font-weight="bold" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-size-complex="15pt" style:font-weight-complex="bold"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="15pt" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba" style:font-size-asian="15pt" style:font-size-complex="15pt"/>
   </style:style>
-  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="">
+  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="15pt" fo:font-weight="bold" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-size-complex="15pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
+  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties fo:color="#0084d1" style:font-name="DejaVu Sans" fo:font-size="15pt" fo:font-weight="bold" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-size-complex="15pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L10">
    <style:paragraph-properties fo:margin-left="1.251cm" fo:margin-right="0cm" fo:text-indent="-0.635cm" style:auto-text-indent="false" fo:break-before="page"/>
    <style:text-properties fo:color="#3465a4" style:font-name="DejaVu Sans" fo:font-size="20pt" fo:font-weight="bold" officeooo:rsid="00086dba" officeooo:paragraph-rsid="00086dba" style:font-size-asian="20pt" style:font-weight-asian="bold" style:font-size-complex="20pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Heading" style:list-style-name="L10">
+  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Heading" style:list-style-name="L10">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties fo:color="#3465a4" style:font-name="DejaVu Sans" fo:font-size="20pt" style:text-underline-style="none" fo:font-weight="bold" style:font-size-asian="20pt" style:font-weight-asian="bold" style:font-size-complex="20pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Footer">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="20pt" officeooo:rsid="00101ed9" officeooo:paragraph-rsid="00101ed9" style:font-name-asian="Droid Sans Fallback1" style:font-size-asian="20pt" style:font-name-complex="Liberation Mono" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -1089,7 +1095,7 @@
  <office:master-styles>
   <style:master-page style:name="Standard" style:page-layout-name="pm1">
    <style:footer>
-    <text:p text:style-name="Footer"><draw:frame draw:style-name="fr1" draw:name="Image2" text:anchor-type="paragraph" svg:x="11.652cm" svg:y="-0.436cm" svg:width="5.318cm" svg:height="1.852cm" draw:z-index="11"><draw:image>
+    <text:p text:style-name="P1"><draw:frame draw:style-name="fr1" draw:name="Image2" text:anchor-type="paragraph" svg:x="11.652cm" svg:y="-0.436cm" svg:width="5.318cm" svg:height="1.852cm" draw:z-index="11"><draw:image>
        <office:binary-data>R0lGODlhyQBGAPcAANbJvbGZhO7o4/vcxuTa0fSmd+HWzY5uVPr5+NzQxqGFbca0pZx+ZqaK
         dJR0W/38+7aeir2olvzk0u3m4d7SyM69sPj29M28rvTw7fDq5aSIcehWEfj18sWyo9DAsse1
         ppl6YutrLPr49sy7rMOwoOdTEvf08ePZ0Orj3eZJFJd4YP38/Pz7+ubc1P707Zt8ZPazh/Pu
@@ -1604,7 +1610,7 @@
         KAMGDBgIZcCAAQOhDBgwYMCp4/8bAJkjtOXSLDFgAAAAAElFTkSuQmCC
        </office:binary-data>
       </draw:image>
-     </draw:frame></text:p>
+     </draw:frame><text:page-number text:select-page="current">6</text:page-number>/<text:page-count>13</text:page-count></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="HTML" style:page-layout-name="pm2"/>
@@ -1617,116 +1623,116 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
    </text:sequence-decls>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P36">Cahier des Charges</text:p>
-   <text:p text:style-name="P36">Fonctionnel</text:p>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P7">Projet : Nuclear Monitoring</text:p>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P37">Cahier des Charges</text:p>
+   <text:p text:style-name="P37">Fonctionnel</text:p>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P8">Projet : Nuclear Monitoring</text:p>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"/>
    <table:table table:name="Table1" table:style-name="Table1">
     <table:table-column table:style-name="Table1.A"/>
     <table:table-column table:style-name="Table1.B"/>
     <table:table-row table:style-name="Table1.1">
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P48">Client : L. Saint-Bauzel</text:p>
+      <text:p text:style-name="P50">Client : L. Saint-Bauzel</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B1" office:value-type="string">
-      <text:p text:style-name="P8">Brière Gwendoline</text:p>
+      <text:p text:style-name="P9">Brière Gwendoline</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="Table1.1">
      <table:table-cell table:style-name="Table1.A2" office:value-type="string">
-      <text:p text:style-name="P9">EISE4</text:p>
+      <text:p text:style-name="P10">EISE4</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B2" office:value-type="string">
-      <text:p text:style-name="P8">Zuo Jingwei</text:p>
+      <text:p text:style-name="P9">Zuo Jingwei</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="Table1.1">
      <table:table-cell table:style-name="Table1.A2" office:value-type="string">
-      <text:p text:style-name="P9">Hiver-Printemps 2016</text:p>
+      <text:p text:style-name="P10">Hiver-Printemps 2016</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B2" office:value-type="string">
-      <text:p text:style-name="P8">Lieppe Morgan</text:p>
+      <text:p text:style-name="P9">Lieppe Morgan</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P40"/>
    <text:p text:style-name="P4"/>
+   <text:p text:style-name="P41"/>
+   <text:p text:style-name="P5"/>
    <text:list xml:id="list8592539507092973144" text:style-name="L10">
     <text:list-item>
-     <text:p text:style-name="P47">Présentation générale du problème</text:p>
+     <text:p text:style-name="P48">Présentation générale du problème</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P29">Contexte</text:p>
+       <text:p text:style-name="P30">Contexte</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P17"><text:tab/>Cela fait bientôt 40ans que les interfaces de monitoring des centrales nucléaires françaises ont été crées <text:span text:style-name="T10">m</text:span>ais n&apos;ont jamais été mis à jour depuis. La technologie derrière ces panneaux de boutons et voyants vieillit et perd en fiabilité, il est grand temps de faire des rénovations.</text:p>
-   <text:p text:style-name="P17"/>
-   <text:list xml:id="list164017643521422" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P18"><text:tab/>Cela fait bientôt 40ans que les interfaces de monitoring des centrales nucléaires françaises ont été crées <text:span text:style-name="T10">m</text:span>ais n&apos;ont jamais été mis à jour depuis. La technologie derrière ces panneaux de boutons et voyants vieillit et perd en fiabilité, il est grand temps de faire des rénovations.</text:p>
+   <text:p text:style-name="P18"/>
+   <text:list xml:id="list165057331104731" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P30">Enoncé du besoin</text:p>
+       <text:p text:style-name="P31">Enoncé du besoin</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P17"><text:tab/>Le projet Reactor Monitoring a pour but de mener à des rénovations d&apos;IHM non critiques en centrale nucléaire avec des modules FPGA. On se propose de remplacer la technologie actuelle par des petits modules FPGA, développés par EDF, combinables dans différentes configurations. Les modules étant déjà existant, il s&apos;agit de programmer les IP qui serviront à la création des différents arrangements de circuits. Les cartes doivent être capable de discuter entre elles, acquérir des données venant des capteurs et enfin, communiquer avec l&apos;IHM déjà présente.</text:p>
-   <text:p text:style-name="P1"/>
-   <text:list xml:id="list164018232806883" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P18"><text:tab/>Le projet Reactor Monitoring a pour but de mener à des rénovations d&apos;IHM non critiques en centrale nucléaire avec des modules FPGA. On se propose de remplacer la technologie actuelle par des petits modules FPGA, développés par EDF, combinables dans différentes configurations. Les modules étant déjà existant, il s&apos;agit de programmer les IP qui serviront à la création des différents arrangements de circuits. Les cartes doivent être capable de discuter entre elles, acquérir des données venant des capteurs et enfin, communiquer avec l&apos;IHM déjà présente.</text:p>
+   <text:p text:style-name="P2"/>
+   <text:list xml:id="list165057200915766" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P30">Environnement</text:p>
+       <text:p text:style-name="P31">Environnement</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P15"/>
-   <text:p text:style-name="P17"><text:tab/>Le produit final se trouvera derrière des panneaux d&apos;IHM. Sous condition normales (20-25°C, température et humidité normales). Il devra être alimenté par les moyens mis à disposition par les panneaux actuels. La carte devra s&apos;adapter aux assemblages déjà existants pour son montage. Elle devra également être accessible facilement pour rendre plus simple la maintenance ou la mise à jour de cette dernière. Lors d&apos;une mise à jour, la carte ne devra pas avoir besoin d&apos;être mise en dehors du reste du système. En effet, la carte ne doit pas produire de défaut sur les autres cartes si elle est reprogrammée (cela pouvant conduire à une mauvaise lecture du monitoring et par conséquent une mauvaise prise de décision).</text:p>
    <text:p text:style-name="P16"/>
-   <text:p text:style-name="P41"/>
-   <text:list xml:id="list164016942351524" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P18"><text:tab/>Le produit final se trouvera derrière des panneaux d&apos;IHM. Sous condition normales (20-25°C, température et humidité normales). Il devra être alimenté par les moyens mis à disposition par les panneaux actuels. La carte devra s&apos;adapter aux assemblages déjà existants pour son montage. Elle devra également être accessible facilement pour rendre plus simple la maintenance ou la mise à jour de cette dernière. Lors d&apos;une mise à jour, la carte ne devra pas avoir besoin d&apos;être mise en dehors du reste du système. En effet, la carte ne doit pas produire de défaut sur les autres cartes si elle est reprogrammée (cela pouvant conduire à une mauvaise lecture du monitoring et par conséquent une mauvaise prise de décision).</text:p>
+   <text:p text:style-name="P17"/>
+   <text:p text:style-name="P42"/>
+   <text:list xml:id="list165058583115428" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
-     <text:p text:style-name="P37">Expression fonctionnelle du besoin</text:p>
+     <text:p text:style-name="P38">Expression fonctionnelle du besoin</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P31">Methode APTE</text:p>
+       <text:p text:style-name="P32">Methode APTE</text:p>
        <text:list>
         <text:list-item>
-         <text:p text:style-name="P23">Diagramme Bête à cornes</text:p>
+         <text:p text:style-name="P24">Diagramme Bête à cornes</text:p>
         </text:list-item>
        </text:list>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P13"/>
-   <text:p text:style-name="P13"><draw:frame draw:style-name="fr3" draw:name="Image3" text:anchor-type="paragraph" svg:y="0cm" svg:width="11.71cm" svg:height="9.13cm" draw:z-index="26"><draw:image>
+   <text:p text:style-name="P14"/>
+   <text:p text:style-name="P14"><draw:frame draw:style-name="fr3" draw:name="Image3" text:anchor-type="paragraph" svg:y="0cm" svg:width="11.71cm" svg:height="9.13cm" draw:z-index="26"><draw:image>
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAYAAADo08FDAAAABmJLR0QA/wD/AP+gvaeTAAAA
        CXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AIQCSA5NRki+AAAIABJREFUeNrs3Xd4VGX6
        N/DvzGSSSSa9kA7pCaGFUELvBgQFBEEUe8G6q6uou7q/V9x11XXdlcVdsaEuoCIiorSA9JIC
@@ -3899,22 +3905,22 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P42"/>
-   <text:list xml:id="list164018386071702" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P43"/>
+   <text:list xml:id="list165058268946521" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:list>
       <text:list-item>
        <text:list>
         <text:list-item>
-         <text:p text:style-name="P23">Diagramme Pieuvre</text:p>
+         <text:p text:style-name="P24">Diagramme Pieuvre</text:p>
         </text:list-item>
        </text:list>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P26"/>
-   <text:p text:style-name="P13"><draw:frame draw:style-name="fr4" draw:name="Image4" text:anchor-type="paragraph" svg:width="17.029cm" svg:height="20.055cm" draw:z-index="27"><draw:image>
+   <text:p text:style-name="P27"/>
+   <text:p text:style-name="P14"><draw:frame draw:style-name="fr4" draw:name="Image4" text:anchor-type="paragraph" svg:width="17.029cm" svg:height="20.055cm" draw:z-index="27"><draw:image>
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAYAAADo08FDAAAABmJLR0QA/wD/AP+gvaeTAAAA
        CXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AIQCgMSJUoSgAAAIABJREFUeNrs3Xd0XMXd
        xvHvrrRaadW7rGpJLnKVGy7YuNBr6L2GkoQAeRMgkEoLEHpNQgs1YIMx1WDAxmDj3rtly5Ks
@@ -7470,21 +7476,21 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P42"/>
-   <text:list xml:id="list164017056017240" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P43"/>
+   <text:list xml:id="list165058420498240" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:list>
       <text:list-item>
        <text:list>
         <text:list-item>
-         <text:p text:style-name="P23">Diagramme<text:span text:style-name="T6">s</text:span> F.A.S.T.</text:p>
+         <text:p text:style-name="P24">Diagramme<text:span text:style-name="T6">s</text:span> F.A.S.T.</text:p>
         </text:list-item>
        </text:list>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P13"><draw:frame draw:style-name="fr6" draw:name="Image9" text:anchor-type="paragraph" svg:width="17cm" svg:height="10.111cm" draw:z-index="32"><draw:image>
+   <text:p text:style-name="P14"><draw:frame draw:style-name="fr6" draw:name="Image9" text:anchor-type="paragraph" svg:width="17cm" svg:height="10.111cm" draw:z-index="32"><draw:image>
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABDQAAAKACAAAAABGDnf/AAAABGdBTUEAALGPC/xhBQAAAAFz
        UkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
        AAJiS0dEAP+Hj8y/AAAACXBIWXMAABibAAAYmwFJdYOUAAA9M0lEQVR42u2dTa6surZmLes+
@@ -7783,7 +7789,7 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P27"><draw:frame draw:style-name="fr6" draw:name="Image6" text:anchor-type="paragraph" svg:width="17cm" svg:height="8.412cm" draw:z-index="29"><draw:image>
+   <text:p text:style-name="P28"><draw:frame draw:style-name="fr6" draw:name="Image6" text:anchor-type="paragraph" svg:width="17cm" svg:height="8.412cm" draw:z-index="29"><draw:image>
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABDUAAAIVCAAAAADkZ5sxAAAABGdBTUEAALGPC/xhBQAAAAFz
        UkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
        AAJiS0dEAP+Hj8y/AAAACXBIWXMAABibAAAYmwFJdYOUAAA35klEQVR42u2dzbG0LhaHKTYs
@@ -8057,17 +8063,17 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P27"/>
-   <text:list xml:id="list164018002062780" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P28"/>
+   <text:list xml:id="list165058440883477" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:list>
       <text:list-header>
-       <text:p text:style-name="P32"/>
+       <text:p text:style-name="P33"/>
       </text:list-header>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P35"><draw:frame draw:style-name="fr7" draw:name="Image8" text:anchor-type="paragraph" svg:x="0.009cm" svg:y="0.076cm" svg:width="17cm" svg:height="8.475cm" draw:z-index="31"><draw:image>
+   <text:p text:style-name="P36"><draw:frame draw:style-name="fr7" draw:name="Image8" text:anchor-type="paragraph" svg:x="0.009cm" svg:y="0.076cm" svg:width="17cm" svg:height="8.475cm" draw:z-index="31"><draw:image>
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABDUAAAIZCAAAAACTpVtKAAAABGdBTUEAALGPC/xhBQAAAAFz
        UkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
        AAJiS0dEAP+Hj8y/AAAACXBIWXMAABibAAAYmwFJdYOUAAA1Y0lEQVR42u2dT7KzoJqHuVR1
@@ -8750,7 +8756,7 @@
       </office:binary-data>
      </draw:image>
     </draw:frame><text:soft-page-break/></text:p>
-   <text:p text:style-name="P45"><draw:frame draw:style-name="fr1" draw:name="Image10" text:anchor-type="paragraph" svg:x="0.106cm" svg:y="0.136cm" svg:width="15.095cm" svg:height="7.442cm" draw:z-index="33"><draw:image>
+   <text:p text:style-name="P46"><draw:frame draw:style-name="fr1" draw:name="Image10" text:anchor-type="paragraph" svg:x="0.106cm" svg:y="0.136cm" svg:width="15.095cm" svg:height="7.442cm" draw:z-index="33"><draw:image>
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABDkAAAIVCAAAAAD+W3u/AAAABGdBTUEAALGPC/xhBQAAAAFz
        UkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
        AAJiS0dEAP+Hj8y/AAAACXBIWXMAABibAAAYmwFJdYOUAAA120lEQVR42u2dy7GzvNJGVZpo
@@ -9015,114 +9021,114 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P45"/>
-   <text:list xml:id="list164018080536870" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P46"/>
+   <text:list xml:id="list165057362801979" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P32">Cahier de recette<text:span text:style-name="T2">s</text:span></text:p>
+       <text:p text:style-name="P33">Cahier de recette<text:span text:style-name="T2">s</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P34"/>
-   <text:p text:style-name="P38">Le cahier de recette est disponible en annexe</text:p>
-   <text:p text:style-name="P43"/>
-   <text:list xml:id="list164017701253919" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P39">Le cahier de recette est disponible en annexe</text:p>
+   <text:p text:style-name="P44"/>
+   <text:list xml:id="list165058148966806" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
-     <text:p text:style-name="P37"><text:span text:style-name="T1">O</text:span>rganisation du projet</text:p>
+     <text:p text:style-name="P38"><text:span text:style-name="T1">O</text:span>rganisation du projet</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P32">Définition des tâches</text:p>
-      </text:list-item>
-     </text:list>
-    </text:list-item>
-   </text:list>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P18">-1: Définition du protocole de communication inter carte</text:p>
-   <text:p text:style-name="P18">-2: Définition des IP nécessaires pour remplir le besoin</text:p>
-   <text:p text:style-name="P18">-3: Programmation des IP <text:span text:style-name="T9">sans </text:span><text:span text:style-name="T8">fonctionnalité plug &amp; play</text:span></text:p>
-   <text:p text:style-name="P18">-4: Création des 2 interfaces de test (boutons/LED et analogique)</text:p>
-   <text:p text:style-name="P18">-5: Phase de test (communication intercarte, test des I/O...)</text:p>
-   <text:p text:style-name="P18"><text:tab/>i) <text:span text:style-name="T8">T</text:span>est bo<text:span text:style-name="T8">u</text:span>tons led</text:p>
-   <text:p text:style-name="P18"><text:tab/>ii) <text:span text:style-name="T8">T</text:span>est analogique</text:p>
-   <text:p text:style-name="P18"><text:tab/>iii) <text:span text:style-name="T8">D</text:span>iscussion intercarte</text:p>
-   <text:p text:style-name="P18">-<text:span text:style-name="T8">6: Programmation des IP pour le plug and play (optionnel)</text:span></text:p>
-   <text:p text:style-name="P18">-<text:span text:style-name="T8">7: Réalisation des tests pour le plug and play (optionnel) </text:span></text:p>
-   <text:p text:style-name="P22">Pour la phase de test <text:span text:style-name="T8">détaillée</text:span>, <text:span text:style-name="T7">se référer à la partie cahier de recettes.</text:span></text:p>
-   <text:p text:style-name="P18"/>
-   <text:list xml:id="list164017689560280" text:continue-numbering="true" text:style-name="L10">
-    <text:list-item>
-     <text:list>
-      <text:list-item>
-       <text:p text:style-name="P32">Rôle des acteurs</text:p>
-      </text:list-item>
-     </text:list>
-    </text:list-item>
-   </text:list>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P18">Phase de développement : </text:p>
-   <text:p text:style-name="P18"><text:tab/>→<text:span text:style-name="T8"> </text:span>Programmation des IP (2 personnes)</text:p>
-   <text:p text:style-name="P18"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation des situations de test, testbench et réalisation des documentations (1 personne)</text:p>
-   <text:p text:style-name="P18"/>
-   <text:p text:style-name="P18"><text:span text:style-name="T8">P</text:span>hase <text:span text:style-name="T8">de réalisation matérielle pour situation de test</text:span>: </text:p>
-   <text:p text:style-name="P18"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation d&apos;un <text:span text:style-name="T8">circuit électrique</text:span> avec <text:span text:style-name="T8">9 </text:span>entrées analogiques (1 personne)</text:p>
-   <text:p text:style-name="P18"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation <text:span text:style-name="T8">optionnelle </text:span>des 2 IHM (circuit sur plaquette de dev) (1 personne)</text:p>
-   <text:p text:style-name="P18"><text:tab/>→<text:span text:style-name="T8"> Réalisation optionnelle d&apos;un PCB type shield pour les IHM (1 personne)</text:span></text:p>
-   <text:p text:style-name="P18"/>
-   <text:p text:style-name="P18">Phase de Test :</text:p>
-   <text:p text:style-name="P18"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation test i) (1personne)</text:p>
-   <text:p text:style-name="P18"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation test ii) (1personne)</text:p>
-   <text:p text:style-name="P18"><text:tab/>--------------------------------------</text:p>
-   <text:p text:style-name="P18"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation test iii, <text:span text:style-name="T8">et test 7</text:span> (2personne)</text:p>
-   <text:p text:style-name="P18"><text:tab/>→<text:span text:style-name="T8"> </text:span>Production de la documentation, des observations et résultats de test, comparaison avec le cahier de recette (1personne)</text:p>
-   <text:p text:style-name="P5"/>
-   <text:list xml:id="list164018491185956" text:continue-numbering="true" text:style-name="L10">
-    <text:list-item>
-     <text:list>
-      <text:list-item>
-       <text:p text:style-name="P33">Modalité de communication</text:p>
-       <text:list>
-        <text:list-item>
-         <text:p text:style-name="P24"><text:span text:style-name="T1">Rapport d&apos;activité</text:span></text:p>
-        </text:list-item>
-       </text:list>
+       <text:p text:style-name="P33">Définition des tâches</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P11"/>
-   <text:p text:style-name="P5"><text:tab/><text:span text:style-name="T4">Un rapport d&apos;activité du groupe sera proposé sur l&apos;espace partagé pour </text:span><text:span text:style-name="T3">témoigner de ses activités durant la semaine passée. </text:span></text:p>
-   <text:p text:style-name="P18"/>
-   <text:list xml:id="list164018111957648" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P19">-1: Définition du protocole de communication inter carte</text:p>
+   <text:p text:style-name="P19">-2: Définition des IP nécessaires pour remplir le besoin</text:p>
+   <text:p text:style-name="P19">-3: Programmation des IP <text:span text:style-name="T9">sans </text:span><text:span text:style-name="T8">fonctionnalité plug &amp; play</text:span></text:p>
+   <text:p text:style-name="P19">-4: Création des 2 interfaces de test (boutons/LED et analogique)</text:p>
+   <text:p text:style-name="P19">-5: Phase de test (communication intercarte, test des I/O...)</text:p>
+   <text:p text:style-name="P19"><text:tab/>i) <text:span text:style-name="T8">T</text:span>est bo<text:span text:style-name="T8">u</text:span>tons led</text:p>
+   <text:p text:style-name="P19"><text:tab/>ii) <text:span text:style-name="T8">T</text:span>est analogique</text:p>
+   <text:p text:style-name="P19"><text:tab/>iii) <text:span text:style-name="T8">D</text:span>iscussion intercarte</text:p>
+   <text:p text:style-name="P19">-<text:span text:style-name="T8">6: Programmation des IP pour le plug and play (optionnel)</text:span></text:p>
+   <text:p text:style-name="P19">-<text:span text:style-name="T8">7: Réalisation des tests pour le plug and play (optionnel) </text:span></text:p>
+   <text:p text:style-name="P23">Pour la phase de test <text:span text:style-name="T8">détaillée</text:span>, <text:span text:style-name="T7">se référer à la partie cahier de recettes.</text:span></text:p>
+   <text:p text:style-name="P19"/>
+   <text:list xml:id="list165057798872262" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:list>
       <text:list-item>
+       <text:p text:style-name="P33">Rôle des acteurs</text:p>
+      </text:list-item>
+     </text:list>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P11"/>
+   <text:p text:style-name="P19">Phase de développement : </text:p>
+   <text:p text:style-name="P19"><text:tab/>→<text:span text:style-name="T8"> </text:span>Programmation des IP (2 personnes)</text:p>
+   <text:p text:style-name="P19"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation des situations de test, testbench et réalisation des documentations (1 personne)</text:p>
+   <text:p text:style-name="P19"/>
+   <text:p text:style-name="P19"><text:span text:style-name="T8">P</text:span>hase <text:span text:style-name="T8">de réalisation matérielle pour situation de test</text:span>: </text:p>
+   <text:p text:style-name="P19"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation d&apos;un <text:span text:style-name="T8">circuit électrique</text:span> avec <text:span text:style-name="T8">9 </text:span>entrées analogiques (1 personne)</text:p>
+   <text:p text:style-name="P19"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation <text:span text:style-name="T8">optionnelle </text:span>des 2 IHM (circuit sur plaquette de dev) (1 personne)</text:p>
+   <text:p text:style-name="P19"><text:tab/>→<text:span text:style-name="T8"> Réalisation optionnelle d&apos;un PCB type shield pour les IHM (1 personne)</text:span></text:p>
+   <text:p text:style-name="P19"/>
+   <text:p text:style-name="P19">Phase de Test :</text:p>
+   <text:p text:style-name="P19"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation test i) (1personne)</text:p>
+   <text:p text:style-name="P19"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation test ii) (1personne)</text:p>
+   <text:p text:style-name="P19"><text:tab/>--------------------------------------</text:p>
+   <text:p text:style-name="P19"><text:tab/>→<text:span text:style-name="T8"> </text:span>Réalisation test iii, <text:span text:style-name="T8">et test 7</text:span> (2personne)</text:p>
+   <text:p text:style-name="P19"><text:tab/>→<text:span text:style-name="T8"> </text:span>Production de la documentation, des observations et résultats de test, comparaison avec le cahier de recette (1personne)</text:p>
+   <text:p text:style-name="P6"/>
+   <text:list xml:id="list165056935769484" text:continue-numbering="true" text:style-name="L10">
+    <text:list-item>
+     <text:list>
+      <text:list-item>
+       <text:p text:style-name="P34">Modalité de communication</text:p>
        <text:list>
         <text:list-item>
-         <text:p text:style-name="P24"><text:span text:style-name="T1">Rapport d&apos;expérience</text:span></text:p>
+         <text:p text:style-name="P25"><text:span text:style-name="T1">Rapport d&apos;activité</text:span></text:p>
         </text:list-item>
        </text:list>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P5"/>
-   <text:p text:style-name="P5"><text:tab/><text:span text:style-name="T3">Lors de la phase de test, des rapports d&apos;expérience seront rédigés afin de</text:span></text:p>
-   <text:p text:style-name="P18">récupérer toutes les informations, remarques et mises aux points sur ces dernières. Cela a pour but de faciliter la restitution lors de l&apos;appreciation du cahier de recette.</text:p>
-   <text:p text:style-name="P5"/>
-   <text:list xml:id="list164017666498744" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P12"/>
+   <text:p text:style-name="P6"><text:tab/><text:span text:style-name="T4">Un rapport d&apos;activité du groupe sera proposé sur l&apos;espace partagé pour </text:span><text:span text:style-name="T3">témoigner de ses activités durant la semaine passée. </text:span></text:p>
+   <text:p text:style-name="P19"/>
+   <text:list xml:id="list165057716377461" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
-     <text:p text:style-name="P46">Planning et livrables</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P32">Diagramme de Gantt</text:p>
+       <text:list>
+        <text:list-item>
+         <text:p text:style-name="P25"><text:span text:style-name="T1">Rapport d&apos;expérience</text:span></text:p>
+        </text:list-item>
+       </text:list>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P34"/>
-   <text:p text:style-name="P34"><draw:frame draw:style-name="fr5" draw:name="Image5" text:anchor-type="paragraph" svg:width="17cm" svg:height="12.284cm" draw:z-index="28"><draw:image>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:tab/><text:span text:style-name="T3">Lors de la phase de test, des rapports d&apos;expérience seront rédigés afin de</text:span></text:p>
+   <text:p text:style-name="P19">récupérer toutes les informations, remarques et mises aux points sur ces dernières. Cela a pour but de faciliter la restitution lors de l&apos;appreciation du cahier de recette.</text:p>
+   <text:p text:style-name="P6"/>
+   <text:list xml:id="list165057654529097" text:continue-numbering="true" text:style-name="L10">
+    <text:list-item>
+     <text:p text:style-name="P47">Planning et livrables</text:p>
+     <text:list>
+      <text:list-item>
+       <text:p text:style-name="P33">Diagramme de Gantt</text:p>
+      </text:list-item>
+     </text:list>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><draw:frame draw:style-name="fr5" draw:name="Image5" text:anchor-type="paragraph" svg:width="17cm" svg:height="12.284cm" draw:z-index="28"><draw:image>
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAB9QAAAWoCAYAAADjPfqGAAAMGWlDQ1BJQ0MgUHJvZmlsZQAA
        SImVVwdYU8kWnltSCAktEAEpoTdBepXeBQHpYCMkAUIJISGo2NFFBdcuFhQFXQFRcC2ArBV7
        WQR73yCioqyLBSyovEkC6LqvfO9839z5c+acM/85d+ZmBgBlR5ZAkI2qAJDDzxdGB/sxE5OS
@@ -13297,111 +13303,111 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P44"/>
-   <text:list xml:id="list164018790962720" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P45"/>
+   <text:list xml:id="list165058936551789" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P33">Description des fournitures</text:p>
+       <text:p text:style-name="P34">Description des fournitures</text:p>
        <text:list>
         <text:list-item>
-         <text:p text:style-name="P25"><text:span text:style-name="T1">Cahier des Charges</text:span></text:p>
+         <text:p text:style-name="P26"><text:span text:style-name="T1">Cahier des Charges</text:span></text:p>
         </text:list-item>
        </text:list>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P12"/>
-   <text:p text:style-name="P12"><text:tab/><text:span text:style-name="T5">Le présent cahier des charges faisant la description du besoin ainsi que la description technique du projet.</text:span></text:p>
-   <text:p text:style-name="P20"/>
-   <text:list xml:id="list164018302500441" text:continue-numbering="true" text:style-name="L10">
-    <text:list-item>
-     <text:list>
-      <text:list-item>
-       <text:list>
-        <text:list-item>
-         <text:p text:style-name="P25"><text:span text:style-name="T1">Cahier de Recette</text:span></text:p>
-        </text:list-item>
-       </text:list>
-      </text:list-item>
-     </text:list>
-    </text:list-item>
-   </text:list>
-   <text:p text:style-name="P28"/>
-   <text:p text:style-name="P6"><text:tab/><text:span text:style-name="T3">Après que toutes les expériences aient été réalisés, le cahier de recette pourra enfin etre complété et pourra rendre compte</text:span></text:p>
-   <text:p text:style-name="P19">des critères d&apos;appréciations du projet.</text:p>
-   <text:p text:style-name="P14"/>
-   <text:list xml:id="list164018359366314" text:continue-numbering="true" text:style-name="L10">
-    <text:list-item>
-     <text:list>
-      <text:list-item>
-       <text:list>
-        <text:list-item>
-         <text:p text:style-name="P25"><text:span text:style-name="T1">Notice développeur</text:span></text:p>
-        </text:list-item>
-       </text:list>
-      </text:list-item>
-     </text:list>
-    </text:list-item>
-   </text:list>
-   <text:p text:style-name="P12"/>
-   <text:p text:style-name="P21">U<text:span text:style-name="T1">ne notice développeur sera produite pour que des implémentations d&apos;IP futures puissent être facilitées.</text:span></text:p>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"><text:tab/><text:span text:style-name="T5">Le présent cahier des charges faisant la description du besoin ainsi que la description technique du projet.</text:span></text:p>
    <text:p text:style-name="P21"/>
-   <text:list xml:id="list164017142576964" text:continue-numbering="true" text:style-name="L10">
+   <text:list xml:id="list165058186808064" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:list>
       <text:list-item>
        <text:list>
         <text:list-item>
-         <text:p text:style-name="P25"><text:span text:style-name="T1">Notice utilisateur</text:span></text:p>
+         <text:p text:style-name="P26"><text:span text:style-name="T1">Cahier de Recette</text:span></text:p>
         </text:list-item>
        </text:list>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P12"/>
-   <text:p text:style-name="P19">Une notice utilisateur sera produite pour pouvoir installer et câbler des cartes.</text:p>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P7"><text:tab/><text:span text:style-name="T3">Après que toutes les expériences aient été réalisés, le cahier de recette pourra enfin etre complété et pourra rendre compte</text:span></text:p>
+   <text:p text:style-name="P20">des critères d&apos;appréciations du projet.</text:p>
+   <text:p text:style-name="P15"/>
+   <text:list xml:id="list165058744462664" text:continue-numbering="true" text:style-name="L10">
+    <text:list-item>
+     <text:list>
+      <text:list-item>
+       <text:list>
+        <text:list-item>
+         <text:p text:style-name="P26"><text:span text:style-name="T1">Notice développeur</text:span></text:p>
+        </text:list-item>
+       </text:list>
+      </text:list-item>
+     </text:list>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P22">U<text:span text:style-name="T1">ne notice développeur sera produite pour que des implémentations d&apos;IP futures puissent être facilitées.</text:span></text:p>
+   <text:p text:style-name="P22"/>
+   <text:list xml:id="list165057400582697" text:continue-numbering="true" text:style-name="L10">
+    <text:list-item>
+     <text:list>
+      <text:list-item>
+       <text:list>
+        <text:list-item>
+         <text:p text:style-name="P26"><text:span text:style-name="T1">Notice utilisateur</text:span></text:p>
+        </text:list-item>
+       </text:list>
+      </text:list-item>
+     </text:list>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P20">Une notice utilisateur sera produite pour pouvoir installer et câbler des cartes.</text:p>
+   <text:p text:style-name="P7"/>
+   <text:list xml:id="list165058270813312" text:continue-numbering="true" text:style-name="L10">
+    <text:list-item>
+     <text:list>
+      <text:list-item>
+       <text:list>
+        <text:list-item>
+         <text:p text:style-name="P26"><text:span text:style-name="T1">prototype d&apos;IHM (si réalisés)</text:span></text:p>
+        </text:list-item>
+       </text:list>
+      </text:list-item>
+     </text:list>
+    </text:list-item>
+   </text:list>
    <text:p text:style-name="P6"/>
-   <text:list xml:id="list164017832908062" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P6"><text:tab/><text:span text:style-name="T3">Un fois les tests achevés, les prototypes d&apos;IHM ainsi crées pourront servir au client lors d&apos;implémentation d&apos;IP futures.</text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:list xml:id="list165057858512989" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:list>
       <text:list-item>
-       <text:list>
-        <text:list-item>
-         <text:p text:style-name="P25"><text:span text:style-name="T1">prototype d&apos;IHM (si réalisés)</text:span></text:p>
-        </text:list-item>
-       </text:list>
+       <text:p text:style-name="P33">Planning de livraison</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P5"/>
-   <text:p text:style-name="P5"><text:tab/><text:span text:style-name="T3">Un fois les tests achevés, les prototypes d&apos;IHM ainsi crées pourront servir au client lors d&apos;implémentation d&apos;IP futures.</text:span></text:p>
-   <text:p text:style-name="P5"/>
-   <text:list xml:id="list164017963719988" text:continue-numbering="true" text:style-name="L10">
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P40">→ Cahier des charges remis 16/02/2016</text:p>
+   <text:p text:style-name="P40">→ Cahier de recette remis le 16/02/2016</text:p>
+   <text:p text:style-name="P40">→ Notice développeur et utilisateur remis 9/05/2016</text:p>
+   <text:p text:style-name="P40">→ Remise éventuelle des prototypes d&apos;IHM s&apos;ils sont réalisés le 9/05/2016</text:p>
+   <text:p text:style-name="P44"/>
+   <text:list xml:id="list165057623048792" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
-     <text:list>
-      <text:list-item>
-       <text:p text:style-name="P32">Planning de livraison</text:p>
-      </text:list-item>
-     </text:list>
+     <text:p text:style-name="P38">Confidentialité</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P34"/>
-   <text:p text:style-name="P39">→ Cahier des charges remis 16/02/2016</text:p>
-   <text:p text:style-name="P39">→ Cahier de recette remis le 16/02/2016</text:p>
-   <text:p text:style-name="P39">→ Notice développeur et utilisateur remis 9/05/2016</text:p>
-   <text:p text:style-name="P39">→ Remise éventuelle des prototypes d&apos;IHM s&apos;ils sont réalisés le 9/05/2016</text:p>
-   <text:p text:style-name="P43"/>
-   <text:list xml:id="list164019080008155" text:continue-numbering="true" text:style-name="L10">
-    <text:list-item>
-     <text:p text:style-name="P37">Confidentialité</text:p>
-    </text:list-item>
-   </text:list>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"><text:tab/>L<text:span text:style-name="T3">e travail ne sera pas rendu publique sur demande du client.</text:span></text:p>
+   <text:p text:style-name="P4"/>
+   <text:p text:style-name="P4"><text:tab/>L<text:span text:style-name="T3">e travail ne sera pas rendu publique sur demande du client.</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>
