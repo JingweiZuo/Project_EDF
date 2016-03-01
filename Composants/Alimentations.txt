@@ -1,0 +1,3 @@
+DE0 et DE1 sont alimentés en 7,5V
+
+

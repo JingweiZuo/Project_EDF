@@ -1,0 +1,14 @@
+Ce qu'on utilise :
+	Carte FPGA DE1 probablement
+	Des Leds : panneau de 3*3 = 9 Leds
+	Potentiomètres :
+		Modifie l'intensité lumineuse d'une ou plusieurs Leds
+		Modifie la vitesse de clignotement d'une ou plusieurs Leds
+	Boutons / Switch :
+		Allume une combinaison de Leds
+		
+Si une Led s'allume sur le panneau de Led, est-ce que ça allume une Led sur l'autre panneau ou est-ce qu'on rajoute des boutons sur le panneau de Led ?
+
+Le tout sera branché à terme sur secteur. Au début on alimentera la carte par l'ordinateur puis on passera au secteur on a donc besoin de deux régulateurs de tension 7,5 V.
+
+
