@@ -1,0 +1,72 @@
+# Reading c:/program files/Modeltech_5.7e/win32/../tcl/vsim/pref.tcl 
+# do can_testbench.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_register_asyn_syn
+# 
+# Top level modules:
+# 	can_register_asyn_syn
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_register_asyn
+# 
+# Top level modules:
+# 	can_register_asyn
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_register
+# 
+# Top level modules:
+# 	can_register
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_registers
+# 
+# Top level modules:
+# 	can_registers
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_btl
+# 
+# Top level modules:
+# 	can_btl
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_crc
+# 
+# Top level modules:
+# 	can_crc
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_acf
+# 
+# Top level modules:
+# 	can_acf
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_fifo
+# 
+# Top level modules:
+# 	can_fifo
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_ibo
+# 
+# Top level modules:
+# 	can_ibo
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_bsp
+# 
+# Top level modules:
+# 	can_bsp
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_top
+# 
+# Top level modules:
+# 	can_top
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# -- Compiling module can_testbench
+# 
+# Top level modules:
+# 	can_testbench
+# Model Technology ModelSim SE vlog 5.7e Compiler 2003.07 Jul  8 2003
+# ** Error: (vlog-7) Failed to open design unit file "C:/Program" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ERROR: c:/program files/Modeltech_5.7e/win32/vlog failed.
+# Error in macro ./can_testbench.fdo line 17
+# c:/program files/Modeltech_5.7e/win32/vlog failed.
+#     while executing
+# "vlog  C:/Program Files/Xilinx/verilog/src/glbl.v
+# "

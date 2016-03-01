@@ -1,0 +1,11 @@
+verilog work can_register_asyn_syn.v
+verilog work can_register_asyn.v
+verilog work can_register.v
+verilog work can_registers.v
+verilog work can_btl.v
+verilog work can_crc.v
+verilog work can_acf.v
+verilog work can_fifo.v
+verilog work can_ibo.v
+verilog work can_bsp.v
+verilog work can_top.v

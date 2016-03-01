@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn __projnav/can_fifo.xst -ofn can_fifo.syr

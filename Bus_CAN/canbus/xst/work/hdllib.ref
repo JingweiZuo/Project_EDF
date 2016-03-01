@@ -1,0 +1,11 @@
+MO can_fifo NULL can_fifo.v vlg01/can_fifo.bin
+MO can_registers NULL can_registers.v vlg49/can_registers.bin
+MO can_bsp NULL can_bsp.v vlg42/can_bsp.bin
+MO can_btl NULL can_btl.v vlg43/can_btl.bin
+MO can_crc NULL can_crc.v vlg49/can_crc.bin
+MO can_register_asyn_syn NULL can_register_asyn_syn.v vlg31/can_register_asyn_syn.bin
+MO can_top NULL can_top.v vlg70/can_top.bin
+MO can_register_asyn NULL can_register_asyn.v vlg48/can_register_asyn.bin
+MO can_acf NULL can_acf.v vlg4F/can_acf.bin
+MO can_register NULL can_register.v vlg5E/can_register.bin
+MO can_ibo NULL can_ibo.v vlg1B/can_ibo.bin

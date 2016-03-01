@@ -1,0 +1,139 @@
+m255
+cModel Technology
+de:\program\fpga_program\for_fpga\can\ise\canbus
+vcan_acf
+IV^L;BVT]]=4kB?3^f5iD^0
+V7KkB[VcOEkYNUAC[hg:703
+w1105406889
+Fcan_acf.v
+Ftimescale.v
+Fcan_defines.v
+L0 83
+OE;L;5.7e;17
+r1
+31
+vcan_bsp
+IPMf]^gg<XiUYnGL[BTz:G0
+VBcZ_2RnV:jeA0[TegXg[e2
+w1105406889
+Fcan_bsp.v
+Ftimescale.v
+Fcan_defines.v
+L0 158
+OE;L;5.7e;17
+r1
+31
+vcan_btl
+IihDAI?BlTi:AkAd0^iiNC1
+V1Q7JB780ZIFo57zo?DBXE2
+w1105406889
+Fcan_btl.v
+Ftimescale.v
+Fcan_defines.v
+L0 99
+OE;L;5.7e;17
+r1
+31
+vcan_crc
+I?bigXBl;EVEeFgMoccm8g2
+Ve<]k;O8n0>:I=Y2GGIX1G2
+w1105406889
+Fcan_crc.v
+Ftimescale.v
+L0 72
+OE;L;5.7e;17
+r1
+31
+vcan_fifo
+In6^N7RBLDSN;6HoD46a9T0
+V]@jb;1TS[Klg@n6N8[0<i3
+w1105406889
+Fcan_fifo.v
+Ftimescale.v
+Fcan_defines.v
+L0 109
+OE;L;5.7e;17
+r1
+31
+vcan_ibo
+Ig38Xo?[g1@4i>VU]`0Qf^3
+V:dZ^RJa1gF4jhZ4RnH9FO1
+w1105406155
+Fcan_ibo.v
+L0 66
+OE;L;5.7e;17
+r1
+31
+vcan_register
+IG`Wo6a;[RoOhgLSaj7gVe2
+V`YiFz_:HKXh8fnBd6fgFI3
+w1105406889
+Fcan_register.v
+Ftimescale.v
+L0 77
+OE;L;5.7e;17
+r1
+31
+vcan_register_asyn
+IRh4OkLji3mz9=MfgYOc;P1
+Vo3d1JfECSa_>`F?<g:8mT3
+w1105406889
+Fcan_register_asyn.v
+Ftimescale.v
+L0 77
+OE;L;5.7e;17
+r1
+31
+vcan_register_asyn_syn
+I[N@fB`cY;>AMHbV8WTaGB2
+V3?jl0h9_<zm;WfWG75V712
+w1105406889
+Fcan_register_asyn_syn.v
+Ftimescale.v
+L0 77
+OE;L;5.7e;17
+r1
+31
+vcan_registers
+IYOh2Q>NAnG;cRIJGT<LcF2
+Va8ZjzBAU0]Z1;PA_Y=Fib1
+w1105406889
+Fcan_registers.v
+Ftimescale.v
+Fcan_defines.v
+L0 133
+OE;L;5.7e;17
+r1
+31
+vcan_testbench
+I5XCRGj`lWSOHFFW1ZVh;d0
+V`okO93@>SQJ=E:Rgig?XP2
+w1105406889
+Fcan_testbench.v
+Ftimescale.v
+Fcan_defines.v
+Fcan_testbench_defines.v
+L0 176
+OE;L;5.7e;17
+r1
+31
+vcan_top
+IV`lUb@oeWK_cMzh>Gc0HP1
+V<F1ILh6mmnbZDKha0Fde50
+w1105406889
+Fcan_top.v
+Ftimescale.v
+Fcan_defines.v
+L0 161
+OE;L;5.7e;17
+r1
+31
+vglbl
+I;3bdO6U;R_i?oXm0zZ=6m3
+V]6_PH00iDgcD`AVz9`gA:0
+w1059855545
+FC:/Program Files/Xilinx/verilog/src/glbl.v
+L0 5
+OE;L;5.7e;17
+r1
+31

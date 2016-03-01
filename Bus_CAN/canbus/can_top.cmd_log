@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn __projnav/can_top.xst -ofn can_top.syr
+xst -intstyle ise -ifn __projnav/can_top.xst -ofn can_top.syr
+ngdbuild -intstyle ise -dd e:\program\fpga_program\for_fpga\can\ise\canbus/_ngo -i  -p xc2s300e-pq208-6 can_top.ngc can_top.ngd
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -xon true -w -ofmt vhdl -sim can_top.ngd can_top_translate.vhd

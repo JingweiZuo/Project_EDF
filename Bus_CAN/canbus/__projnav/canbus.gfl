@@ -1,0 +1,89 @@
+# XST (Creating Lso File) : 
+can_top.lso
+# Check Syntax
+can_top.stx
+# xst flow : RunXST
+can_top.syr
+can_top.prj
+can_top.sprj
+can_top.ana
+can_top.stx
+can_top.cmd_log
+# XST (Creating Lso File) : 
+can_fifo.lso
+# Check Syntax
+can_fifo.stx
+# xst flow : RunXST
+can_fifo.syr
+can_fifo.prj
+can_fifo.sprj
+can_fifo.ana
+can_fifo.stx
+can_fifo.cmd_log
+can_fifo.ngc
+can_fifo.ngr
+# ModelSim : Launch ModelSim Simulator
+can_top.ldo
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# XST (Creating Lso File) : 
+can_register_asyn_syn.lso
+# Check Syntax
+can_register_asyn_syn.stx
+# xst flow : RunXST
+can_register_asyn_syn.syr
+can_register_asyn_syn.prj
+can_register_asyn_syn.sprj
+can_register_asyn_syn.ana
+can_register_asyn_syn.stx
+can_register_asyn_syn.cmd_log
+can_register_asyn_syn.ngc
+can_register_asyn_syn.ngr
+# XST (Creating Lso File) : 
+can_top.lso
+# xst flow : RunXST
+can_top.syr
+can_top.prj
+can_top.sprj
+can_top.ana
+can_top.stx
+can_top.cmd_log
+can_register_asyn_syn.ngc
+can_fifo.ngc
+can_top.ngc
+can_register_asyn_syn.ngr
+can_fifo.ngr
+can_top.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\program\fpga_program\for_fpga\can\ise\canbus/_ngo
+can_top.ngd
+can_top_ngdbuild.nav
+can_top.bld
+.untf
+can_top.cmd_log
+# Implementation : Generate Post-Translate Simulation Model
+can_top_translate.vhd
+can_top_translate.vhd
+can_top_translate.nlf
+can_top.xlate_nlf
+can_top.vhdsim_xlate
+can_top.cmd_log
+# ModelSim : Simulate Post-Translate VHDL Model
+can_testbench.ndo
+# ModelSim : Simulate Post-Translate VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+can_testbench.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+can_registers.lso
+# Check Syntax
+can_registers.stx
+can_register_asyn_syn.ngc

@@ -1,0 +1,23 @@
+Release 6.1i - xst G.23
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.24 s | Elapsed : 0.00 / 0.00 s
+ 
+--> WARNING:Xst:1885 - LSO file is empty, default list of libraries is used
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "can_fifo.v"
+Compiling include file "can_defines.v"
+Module <can_fifo> compiled
+No errors in compilation
+Analysis of file <can_fifo.prj> succeeded.
+ 
+CPU : 0.03 / 0.27 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 47664 kilobytes
+
+

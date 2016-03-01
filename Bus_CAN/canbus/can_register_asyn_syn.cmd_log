@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn __projnav/can_register_asyn_syn.xst -ofn can_register_asyn_syn.syr

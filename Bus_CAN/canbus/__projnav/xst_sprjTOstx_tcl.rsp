@@ -1,0 +1,1 @@
+set allSynthModules {can_register_asyn_syn.MOD can_register_asyn.MOD can_register.MOD can_registers.MOD}

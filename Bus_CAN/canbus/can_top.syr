@@ -1,0 +1,1094 @@
+Release 6.1i - xst G.23
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.20 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.20 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: can_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : can_top.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : can_top
+Output Format                      : NGC
+Target Device                      : xc2s300e-6-pq208
+
+---- Source Options
+Top Module Name                    : can_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : can_top.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+WARNING:Xst:1885 - LSO file is empty, default list of libraries is used
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "can_register_asyn_syn.v"
+Module <can_register_asyn_syn> compiled
+Compiling source file "can_register_asyn.v"
+Module <can_register_asyn> compiled
+Compiling source file "can_register.v"
+Module <can_register> compiled
+Compiling source file "can_registers.v"
+Compiling include file "can_defines.v"
+Module <can_registers> compiled
+Compiling source file "can_btl.v"
+Compiling include file "can_defines.v"
+WARNING:HDLCompilers:38 - can_defines.v line 88 Macro 'XILINX_RAM' redefined
+Module <can_btl> compiled
+Compiling source file "can_crc.v"
+Module <can_crc> compiled
+Compiling source file "can_acf.v"
+Compiling include file "can_defines.v"
+WARNING:HDLCompilers:38 - can_defines.v line 88 Macro 'XILINX_RAM' redefined
+Module <can_acf> compiled
+Compiling source file "can_fifo.v"
+Compiling include file "can_defines.v"
+WARNING:HDLCompilers:38 - can_defines.v line 88 Macro 'XILINX_RAM' redefined
+Module <can_fifo> compiled
+Compiling source file "can_ibo.v"
+Module <can_ibo> compiled
+Compiling source file "can_bsp.v"
+Compiling include file "can_defines.v"
+WARNING:HDLCompilers:38 - can_defines.v line 88 Macro 'XILINX_RAM' redefined
+Module <can_bsp> compiled
+Compiling source file "can_top.v"
+Compiling include file "can_defines.v"
+WARNING:HDLCompilers:38 - can_defines.v line 88 Macro 'XILINX_RAM' redefined
+Module <can_top> compiled
+No errors in compilation
+Analysis of file <can_top.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <can_top>.
+WARNING:Xst:916 - can_top.v line 649: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_top.v line 651: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_top.v line 714: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_top.v line 728: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_top.v line 729: Delay is ignored for synthesis.
+Module <can_top> is correct for synthesis.
+ 
+Analyzing module <can_registers>.
+WARNING:Xst:916 - can_registers.v line 443: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_registers.v line 444: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_registers.v line 445: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_registers.v line 446: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_registers.v line 447: Delay is ignored for synthesis.
+WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
+Module <can_registers> is correct for synthesis.
+ 
+Analyzing module <can_register_asyn_syn>.
+WARNING:Xst:916 - can_register_asyn_syn.v line 103: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn_syn.v line 105: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn_syn.v line 107: Delay is ignored for synthesis.
+Module <can_register_asyn_syn> is correct for synthesis.
+ 
+Analyzing module <can_register_asyn>.
+WARNING:Xst:916 - can_register_asyn.v line 101: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn.v line 103: Delay is ignored for synthesis.
+Module <can_register_asyn> is correct for synthesis.
+ 
+Analyzing module <can_register_asyn_1>.
+WARNING:Xst:916 - can_register_asyn.v line 101: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn.v line 103: Delay is ignored for synthesis.
+Module <can_register_asyn_1> is correct for synthesis.
+ 
+Analyzing module <can_register_asyn_syn_1>.
+WARNING:Xst:916 - can_register_asyn_syn.v line 103: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn_syn.v line 105: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn_syn.v line 107: Delay is ignored for synthesis.
+Module <can_register_asyn_syn_1> is correct for synthesis.
+ 
+Analyzing module <can_register_asyn_syn_2>.
+WARNING:Xst:916 - can_register_asyn_syn.v line 103: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn_syn.v line 105: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn_syn.v line 107: Delay is ignored for synthesis.
+Module <can_register_asyn_syn_2> is correct for synthesis.
+ 
+Analyzing module <can_register>.
+WARNING:Xst:916 - can_register.v line 98: Delay is ignored for synthesis.
+Module <can_register> is correct for synthesis.
+ 
+Analyzing module <can_register_asyn_2>.
+WARNING:Xst:916 - can_register_asyn.v line 101: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn.v line 103: Delay is ignored for synthesis.
+Module <can_register_asyn_2> is correct for synthesis.
+ 
+Analyzing module <can_register_1>.
+WARNING:Xst:916 - can_register.v line 98: Delay is ignored for synthesis.
+Module <can_register_1> is correct for synthesis.
+ 
+Analyzing module <can_register_2>.
+WARNING:Xst:916 - can_register.v line 98: Delay is ignored for synthesis.
+Module <can_register_2> is correct for synthesis.
+ 
+Analyzing module <can_btl>.
+WARNING:Xst:916 - can_btl.v line 205: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_btl.v line 207: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_btl.v line 216: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_btl.v line 218: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_btl.v line 237: Delay is ignored for synthesis.
+WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
+Module <can_btl> is correct for synthesis.
+ 
+Analyzing module <can_bsp>.
+WARNING:Xst:916 - can_bsp.v line 641: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_bsp.v line 643: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_bsp.v line 653: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_bsp.v line 655: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_bsp.v line 665: Delay is ignored for synthesis.
+WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
+can_bsp.v line 1285: Found Parallel Case directive in module <can_bsp>.
+can_bsp.v line 1296: Found Parallel Case directive in module <can_bsp>.
+can_bsp.v line 1306: Found Parallel Case directive in module <can_bsp>.
+INFO:Xst:1433 - Contents of array <tmp_fifo> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <r_calculated_crc> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <extended_chain_std> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <r_calculated_crc> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <basic_chain> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Module <can_bsp> is correct for synthesis.
+ 
+Analyzing module <can_crc>.
+WARNING:Xst:916 - can_crc.v line 96: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_crc.v line 100: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_crc.v line 102: Delay is ignored for synthesis.
+Module <can_crc> is correct for synthesis.
+ 
+Analyzing module <can_acf>.
+WARNING:Xst:916 - can_acf.v line 346: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_acf.v line 348: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_acf.v line 353: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_acf.v line 355: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_acf.v line 359: Delay is ignored for synthesis.
+WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
+Module <can_acf> is correct for synthesis.
+ 
+Analyzing module <can_fifo>.
+WARNING:Xst:916 - can_fifo.v line 182: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_fifo.v line 184: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_fifo.v line 194: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_fifo.v line 196: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_fifo.v line 206: Delay is ignored for synthesis.
+WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
+Module <can_fifo> is correct for synthesis.
+ 
+Analyzing module <RAMB4_S8_S8>.
+Analyzing module <RAMB4_S4_S4>.
+Analyzing module <RAMB4_S1_S1>.
+Analyzing module <can_ibo>.
+Module <can_ibo> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <can_ibo>.
+    Related source file is can_ibo.v.
+Unit <can_ibo> synthesized.
+
+
+Synthesizing Unit <can_fifo>.
+    Related source file is can_fifo.v.
+WARNING:Xst:647 - Input <addr<7:6>> is never used.
+WARNING:Xst:647 - Input <fifo_selected> is never used.
+    Found 7-bit updown counter for signal <info_cnt>.
+    Found 6-bit subtractor for signal <$n0019>.
+    Found 7-bit addsub for signal <$n0020>.
+    Found 7-bit subtractor for signal <$n0030> created at line 271.
+    Found 6-bit adder for signal <$n0032> created at line 231.
+    Found 1-bit xor2 for signal <$n0056> created at line 285.
+    Found 7-bit register for signal <fifo_cnt>.
+    Found 1-bit register for signal <latch_overrun>.
+    Found 4-bit up counter for signal <len_cnt>.
+    Found 6-bit up counter for signal <rd_info_pointer>.
+    Found 6-bit register for signal <rd_pointer>.
+    Found 6-bit adder for signal <read_address>.
+    Found 6-bit up counter for signal <wr_info_pointer>.
+    Found 6-bit up counter for signal <wr_pointer>.
+    Found 1-bit register for signal <wr_q>.
+    Found 7 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   5 Counter(s).
+	inferred  15 D-type flip-flop(s).
+	inferred   5 Adder/Subtracter(s).
+	inferred   7 Multiplexer(s).
+Unit <can_fifo> synthesized.
+
+
+Synthesizing Unit <can_acf>.
+    Related source file is can_acf.v.
+    Found 1-bit register for signal <id_ok>.
+    Found 1-bit xor2 for signal <$n0102> created at line 293.
+    Found 1-bit xor2 for signal <$n0103> created at line 293.
+    Found 1-bit xor2 for signal <$n0104> created at line 293.
+    Found 1-bit xor2 for signal <$n0105> created at line 293.
+    Found 1-bit xor2 for signal <$n0106> created at line 293.
+    Found 1-bit xor2 for signal <$n0107> created at line 293.
+    Found 1-bit xor2 for signal <$n0108> created at line 293.
+    Found 1-bit xor2 for signal <$n0109> created at line 293.
+    Found 1-bit xor2 for signal <$n0110> created at line 293.
+    Found 1-bit xor2 for signal <$n0111> created at line 293.
+    Found 1-bit xor2 for signal <$n0112> created at line 293.
+    Found 1-bit xor2 for signal <$n0113> created at line 293.
+    Found 1-bit xor2 for signal <$n0114> created at line 293.
+    Found 1-bit xor2 for signal <$n0115> created at line 293.
+    Found 1-bit xor2 for signal <$n0116> created at line 293.
+    Found 1-bit xor2 for signal <$n0117> created at line 293.
+    Found 1-bit xor2 for signal <$n0118> created at line 293.
+    Found 1-bit xor2 for signal <$n0119> created at line 293.
+    Found 1-bit xor2 for signal <$n0120> created at line 293.
+    Found 1-bit xor2 for signal <$n0121> created at line 293.
+    Found 1-bit xor2 for signal <$n0122> created at line 293.
+    Found 1-bit xor2 for signal <$n0123> created at line 293.
+    Found 1-bit xor2 for signal <$n0124> created at line 293.
+    Found 1-bit xor2 for signal <$n0125> created at line 293.
+    Found 1-bit xor2 for signal <$n0126> created at line 293.
+    Found 1-bit xor2 for signal <$n0127> created at line 293.
+    Found 1-bit xor2 for signal <$n0128> created at line 293.
+    Found 1-bit xor2 for signal <$n0129> created at line 293.
+    Found 1-bit xor2 for signal <$n0130> created at line 293.
+    Found 1-bit xor2 for signal <$n0131> created at line 293.
+    Found 1-bit xor2 for signal <$n0132> created at line 293.
+    Found 1-bit xor2 for signal <$n0133> created at line 293.
+    Found 1-bit xor2 for signal <$n0134> created at line 250.
+    Found 1-bit xor2 for signal <$n0135> created at line 250.
+    Found 1-bit xor2 for signal <$n0136> created at line 250.
+    Found 1-bit xor2 for signal <$n0137> created at line 250.
+    Found 1-bit xor2 for signal <$n0138> created at line 250.
+    Found 1-bit xor2 for signal <$n0139> created at line 250.
+    Found 1-bit xor2 for signal <$n0140> created at line 250.
+    Found 1-bit xor2 for signal <$n0141> created at line 250.
+    Found 1-bit xor2 for signal <$n0142> created at line 250.
+    Found 1-bit xor2 for signal <$n0143> created at line 250.
+    Found 1-bit xor2 for signal <$n0144> created at line 250.
+    Found 1-bit xor2 for signal <$n0145> created at line 250.
+    Found 1-bit xor2 for signal <$n0146> created at line 250.
+    Found 1-bit xor2 for signal <$n0147> created at line 250.
+    Found 1-bit xor2 for signal <$n0148> created at line 250.
+    Found 1-bit xor2 for signal <$n0149> created at line 250.
+    Found 1-bit xor2 for signal <$n0150> created at line 250.
+    Found 1-bit xor2 for signal <$n0151> created at line 250.
+    Found 1-bit xor2 for signal <$n0152> created at line 250.
+    Found 1-bit xor2 for signal <$n0153> created at line 250.
+    Found 1-bit xor2 for signal <$n0154> created at line 250.
+    Found 1-bit xor2 for signal <$n0155> created at line 250.
+    Found 1-bit xor2 for signal <$n0156> created at line 250.
+    Found 1-bit xor2 for signal <$n0157> created at line 250.
+    Found 1-bit xor2 for signal <$n0158> created at line 250.
+    Found 1-bit xor2 for signal <$n0159> created at line 250.
+    Found 1-bit xor2 for signal <$n0160> created at line 250.
+    Found 1-bit xor2 for signal <$n0161> created at line 250.
+    Found 1-bit xor2 for signal <$n0162> created at line 250.
+    Found 1-bit xor2 for signal <$n0163> created at line 250.
+    Found 1-bit xor2 for signal <$n0164> created at line 250.
+    Found 1-bit xor2 for signal <$n0165> created at line 250.
+    Found 1-bit xor2 for signal <$n0166> created at line 212.
+    Found 1-bit xor2 for signal <$n0167> created at line 212.
+    Found 1-bit xor2 for signal <$n0168> created at line 212.
+    Found 1-bit xor2 for signal <$n0169> created at line 212.
+    Found 1-bit xor2 for signal <$n0170> created at line 212.
+    Found 1-bit xor2 for signal <$n0171> created at line 212.
+    Found 1-bit xor2 for signal <$n0172> created at line 212.
+    Found 1-bit xor2 for signal <$n0173> created at line 212.
+    Found 1-bit xor2 for signal <$n0174> created at line 212.
+    Found 1-bit xor2 for signal <$n0175> created at line 212.
+    Found 1-bit xor2 for signal <$n0176> created at line 212.
+    Found 1-bit xor2 for signal <$n0177> created at line 212.
+    Found 1-bit xor2 for signal <$n0178> created at line 212.
+    Found 1-bit xor2 for signal <$n0179> created at line 212.
+    Found 1-bit xor2 for signal <$n0180> created at line 176.
+    Found 1-bit xor2 for signal <$n0181> created at line 176.
+    Found 1-bit xor2 for signal <$n0182> created at line 176.
+    Found 1-bit xor2 for signal <$n0183> created at line 176.
+    Found 1-bit xor2 for signal <$n0184> created at line 176.
+    Found 1-bit xor2 for signal <$n0185> created at line 176.
+    Found 1-bit xor2 for signal <$n0186> created at line 176.
+    Found 1-bit xor2 for signal <$n0187> created at line 176.
+    Found 1-bit xor2 for signal <$n0188> created at line 176.
+    Found 1-bit xor2 for signal <$n0189> created at line 176.
+    Found 1-bit xor2 for signal <$n0190> created at line 176.
+    Found 1-bit xor2 for signal <$n0191> created at line 176.
+    Found 1-bit xor2 for signal <$n0192> created at line 176.
+    Found 1-bit xor2 for signal <$n0193> created at line 176.
+    Found 1-bit xor2 for signal <$n0194> created at line 176.
+    Found 1-bit xor2 for signal <$n0195> created at line 176.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <can_acf> synthesized.
+
+
+Synthesizing Unit <can_crc>.
+    Related source file is can_crc.v.
+    Found 15-bit register for signal <crc>.
+    Found 1-bit xor2 for signal <crc_next>.
+    Found 15 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  15 D-type flip-flop(s).
+	inferred  15 Multiplexer(s).
+Unit <can_crc> synthesized.
+
+
+Synthesizing Unit <can_register_2>.
+    Related source file is can_register.v.
+    Found 3-bit register for signal <data_out>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <can_register_2> synthesized.
+
+
+Synthesizing Unit <can_register_1>.
+    Related source file is can_register.v.
+    Found 1-bit register for signal <data_out<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <can_register_1> synthesized.
+
+
+Synthesizing Unit <can_register_asyn_2>.
+    Related source file is can_register_asyn.v.
+    Found 8-bit register for signal <data_out>.
+Unit <can_register_asyn_2> synthesized.
+
+
+Synthesizing Unit <can_register>.
+    Related source file is can_register.v.
+    Found 8-bit register for signal <data_out>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <can_register> synthesized.
+
+
+Synthesizing Unit <can_register_asyn_syn_2>.
+    Related source file is can_register_asyn_syn.v.
+    Found 2-bit register for signal <data_out>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <can_register_asyn_syn_2> synthesized.
+
+
+Synthesizing Unit <can_register_asyn_syn_1>.
+    Related source file is can_register_asyn_syn.v.
+    Found 1-bit register for signal <data_out<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <can_register_asyn_syn_1> synthesized.
+
+
+Synthesizing Unit <can_register_asyn_1>.
+    Related source file is can_register_asyn.v.
+    Found 3-bit register for signal <data_out>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <can_register_asyn_1> synthesized.
+
+
+Synthesizing Unit <can_register_asyn>.
+    Related source file is can_register_asyn.v.
+    Found 4-bit register for signal <data_out>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <can_register_asyn> synthesized.
+
+
+Synthesizing Unit <can_register_asyn_syn>.
+    Related source file is can_register_asyn_syn.v.
+    Found 1-bit register for signal <data_out<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <can_register_asyn_syn> synthesized.
+
+
+Synthesizing Unit <can_bsp>.
+    Related source file is can_bsp.v.
+WARNING:Xst:646 - Signal <bit_stuff_cnt_tx_en> is assigned but never used.
+    Found 8-bit register for signal <error_capture_code>.
+    Found 5-bit up counter for signal <arbitration_lost_capture>.
+    Found 9-bit register for signal <rx_err_cnt>.
+    Found 1-bit register for signal <transmitting>.
+    Found 1-bit register for signal <rx_idle>.
+    Found 1-bit register for signal <need_to_tx>.
+    Found 1-bit register for signal <tx>.
+    Found 1-bit register for signal <node_error_passive>.
+    Found 1-bit register for signal <node_bus_off>.
+    Found 9-bit register for signal <tx_err_cnt>.
+    Found 4-bit subtractor for signal <$COND_6>.
+    Found 9-bit subtractor for signal <$n0000> created at line 1612.
+    Found 9-bit subtractor for signal <$n0001> created at line 1612.
+    Found 8-bit 8-to-1 multiplexer for signal <$n0004> created at line 1314.
+    Found 1-bit 64-to-1 multiplexer for signal <$n0005> created at line 1586.
+    Found 1-bit 16-to-1 multiplexer for signal <$n0006> created at line 1588.
+    Found 1-bit 39-to-1 multiplexer for signal <$n0007> created at line 1594.
+    Found 1-bit 19-to-1 multiplexer for signal <$n0008> created at line 1596.
+    Found 1-bit 64-to-1 multiplexer for signal <$n0009> created at line 1602.
+    Found 1-bit 19-to-1 multiplexer for signal <$n0010> created at line 1608.
+    Found 6-bit adder for signal <$n0156> created at line 1833.
+    Found 6-bit adder for signal <$n0157> created at line 1858.
+    Found 9-bit addsub for signal <$n0158>.
+    Found 4-bit comparator less for signal <$n0163> created at line 1230.
+    Found 9-bit comparator greater for signal <$n0203> created at line 1820.
+    Found 6-bit comparator greater for signal <$n0214> created at line 1978.
+    Found 6-bit comparator greater for signal <$n0215> created at line 1977.
+    Found 6-bit comparator less for signal <$n0216> created at line 1975.
+    Found 9-bit comparator equal for signal <$n0219> created at line 1612.
+    Found 9-bit comparator equal for signal <$n0220> created at line 1612.
+    Found 4-bit adder for signal <$n0224> created at line 1231.
+    Found 4-bit comparator equal for signal <$n0225> created at line 1231.
+    Found 4-bit subtractor for signal <$n0229> created at line 1230.
+    Found 4-bit comparator less for signal <$n0235> created at line 1173.
+    Found 4-bit comparator less for signal <$n0236> created at line 1172.
+    Found 3-bit comparator less for signal <$n0237> created at line 1093.
+    Found 3-bit comparator less for signal <$n0238> created at line 1093.
+    Found 3-bit comparator less for signal <$n0239> created at line 1061.
+    Found 6-bit comparator less for signal <$n0243> created at line 605.
+    Found 6-bit subtractor for signal <$n0247> created at line 593.
+    Found 6-bit comparator equal for signal <$n0248> created at line 593.
+    Found 3-bit comparator less for signal <$n0251> created at line 1428.
+    Found 3-bit adder for signal <$n0260> created at line 980.
+    Found 3-bit adder for signal <$n0261> created at line 1011.
+    Found 15-bit comparator not equal for signal <$n0262> created at line 1054.
+    Found 3-bit comparator less for signal <$n0263> created at line 1515.
+    Found 3-bit comparator less for signal <$n0264> created at line 1522.
+    Found 9-bit comparator greatequal for signal <$n0268> created at line 1825.
+    Found 9-bit comparator lessequal for signal <$n0269> created at line 1818.
+    Found 9-bit comparator greater for signal <$n0270> created at line 1818.
+    Found 9-bit comparator greater for signal <$n0271> created at line 1850.
+    Found 9-bit subtractor for signal <$n0272> created at line 1851.
+    Found 9-bit comparator greatequal for signal <$n0273> created at line 1883.
+    Found 9-bit comparator greatequal for signal <$n0274> created at line 1883.
+    Found 9-bit comparator less for signal <$n0275> created at line 1881.
+    Found 9-bit comparator less for signal <$n0276> created at line 1881.
+    Found 9-bit comparator greatequal for signal <$n0277> created at line 1897.
+    Found 8-bit comparator less for signal <$n0281> created at line 1895.
+    Found 9-bit comparator greatequal for signal <$n0283> created at line 1955.
+    Found 9-bit comparator greatequal for signal <$n0284> created at line 1955.
+    Found 9-bit comparator greatequal for signal <$n0285> created at line 1955.
+    Found 9-bit comparator greatequal for signal <$n0286> created at line 1955.
+    Found 3-bit adder for signal <$n0287> created at line 1431.
+    Found 4-bit comparator less for signal <$n0288> created at line 1911.
+    Found 4-bit adder for signal <$n0289> created at line 1912.
+    Found 1-bit xor2 for signal <$n0327> created at line 1024.
+    Found 1-bit xor2 for signal <$n0333> created at line 623.
+    Found 1-bit xor2 for signal <$n0383> created at line 1010.
+    Found 1-bit register for signal <ack_err_latched>.
+    Found 1-bit register for signal <arbitration_blocked>.
+    Found 1-bit register for signal <arbitration_cnt_en>.
+    Found 1-bit register for signal <arbitration_lost>.
+    Found 1-bit register for signal <arbitration_lost_q>.
+    Found 6-bit up counter for signal <bit_cnt>.
+    Found 1-bit register for signal <bit_err_latched>.
+    Found 3-bit register for signal <bit_stuff_cnt>.
+    Found 1-bit register for signal <bit_stuff_cnt_en>.
+    Found 3-bit register for signal <bit_stuff_cnt_tx>.
+    Found 1-bit register for signal <bus_free>.
+    Found 4-bit register for signal <bus_free_cnt>.
+    Found 1-bit register for signal <bus_free_cnt_en>.
+    Found 3-bit up counter for signal <byte_cnt>.
+    Found 1-bit register for signal <crc_enable>.
+    Found 1-bit register for signal <crc_err>.
+    Found 15-bit register for signal <crc_in>.
+    Found 4-bit up counter for signal <data_cnt>.
+    Found 4-bit register for signal <data_len>.
+    Found 3-bit up counter for signal <delayed_dominant_cnt>.
+    Found 1-bit register for signal <enable_error_cnt2>.
+    Found 1-bit register for signal <enable_overload_cnt2>.
+    Found 3-bit up counter for signal <eof_cnt>.
+    Found 1-bit register for signal <error_capture_code_blocked>.
+    Found 3-bit up counter for signal <error_cnt1>.
+    Found 3-bit up counter for signal <error_cnt2>.
+    Found 1-bit register for signal <error_flag_over_blocked>.
+    Found 1-bit register for signal <error_frame>.
+    Found 1-bit register for signal <error_frame_q>.
+    Found 1-bit register for signal <finish_msg>.
+    Found 1-bit register for signal <form_err_latched>.
+    Found 1-bit register for signal <go_early_tx_latched>.
+    Found 3-bit up counter for signal <header_cnt>.
+    Found 29-bit register for signal <id>.
+    Found 1-bit register for signal <ide>.
+    Found 1-bit register for signal <node_bus_off_q>.
+    Found 3-bit up counter for signal <overload_cnt1>.
+    Found 3-bit up counter for signal <overload_cnt2>.
+    Found 1-bit register for signal <overload_frame>.
+    Found 1-bit register for signal <overload_frame_blocked>.
+    Found 3-bit register for signal <passive_cnt>.
+    Found 1-bit register for signal <reset_mode_q>.
+    Found 1-bit register for signal <rtr1>.
+    Found 1-bit register for signal <rtr2>.
+    Found 1-bit register for signal <rule3_exc1_1>.
+    Found 1-bit register for signal <rule3_exc1_2>.
+    Found 1-bit register for signal <rule3_exc2>.
+    Found 1-bit register for signal <rx_ack>.
+    Found 1-bit register for signal <rx_ack_lim>.
+    Found 1-bit register for signal <rx_crc>.
+    Found 1-bit register for signal <rx_crc_lim>.
+    Found 1-bit register for signal <rx_data>.
+    Found 1-bit register for signal <rx_dlc>.
+    Found 1-bit register for signal <rx_eof>.
+    Found 1-bit register for signal <rx_err_cnt_blocked>.
+    Found 1-bit register for signal <rx_id1>.
+    Found 1-bit register for signal <rx_id2>.
+    Found 1-bit register for signal <rx_ide>.
+    Found 1-bit register for signal <rx_inter>.
+    Found 1-bit register for signal <rx_r0>.
+    Found 1-bit register for signal <rx_r1>.
+    Found 1-bit register for signal <rx_rtr1>.
+    Found 1-bit register for signal <rx_rtr2>.
+    Found 3-bit comparator less for signal <storing_header>.
+    Found 1-bit register for signal <stuff_err_latched>.
+    Found 3-bit up counter for signal <susp_cnt>.
+    Found 1-bit register for signal <susp_cnt_en>.
+    Found 1-bit register for signal <suspend>.
+    Found 8-bit register for signal <tmp_data>.
+    Found 64-bit register for signal <tmp_fifo>.
+    Found 1-bit register for signal <transmitter>.
+    Found 1-bit register for signal <tx_point_q>.
+    Found 6-bit up counter for signal <tx_pointer>.
+    Found 1-bit register for signal <tx_q>.
+    Found 1-bit register for signal <tx_state>.
+    Found 1-bit register for signal <waiting_for_bus_free>.
+    Found 1-bit register for signal <wr_fifo>.
+    Found 1-bit register for signal <write_data_to_tmp_fifo>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  13 Counter(s).
+	inferred 215 D-type flip-flop(s).
+	inferred  14 Adder/Subtracter(s).
+	inferred  35 Comparator(s).
+	inferred  15 Multiplexer(s).
+Unit <can_bsp> synthesized.
+
+
+Synthesizing Unit <can_btl>.
+    Related source file is can_btl.v.
+    Found 1-bit register for signal <clk_en>.
+    Found 1-bit register for signal <sample_point>.
+    Found 1-bit register for signal <sampled_bit>.
+    Found 1-bit register for signal <sampled_bit_q>.
+    Found 10-bit subtractor for signal <$n0000> created at line 204.
+    Found 9-bit subtractor for signal <$n0003> created at line 307.
+    Found 11-bit comparator equal for signal <$n0007> created at line 204.
+    Found 8-bit comparator greater for signal <$n0030> created at line 300.
+    Found 8-bit comparator equal for signal <$n0034> created at line 226.
+    Found 8-bit comparator equal for signal <$n0035> created at line 224.
+    Found 4-bit adder for signal <$n0038> created at line 300.
+    Found 8-bit comparator not equal for signal <$n0041> created at line 331.
+    Found 8-bit comparator not equal for signal <$n0042> created at line 357.
+    Found 2-bit adder carry out for signal <$n0043> created at line 300.
+    Found 4-bit adder carry out for signal <$n0044> created at line 331.
+    Found 6-bit adder carry out for signal <$n0045> created at line 194.
+    Found 9-bit up counter for signal <clk_cnt>.
+    Found 4-bit register for signal <delay>.
+    Found 8-bit up counter for signal <quant_cnt>.
+    Found 1-bit register for signal <resync_blocked>.
+    Found 1-bit register for signal <resync_latched>.
+    Found 2-bit register for signal <sample>.
+    Found 1-bit register for signal <seg1>.
+    Found 1-bit register for signal <seg2>.
+    Found 1-bit register for signal <sync>.
+    Found 1-bit register for signal <sync_blocked>.
+    Found 10-bit comparator less for signal <sync_window>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  16 D-type flip-flop(s).
+	inferred   6 Adder/Subtracter(s).
+	inferred   7 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <can_btl> synthesized.
+
+
+Synthesizing Unit <can_registers>.
+    Related source file is can_registers.v.
+WARNING:Xst:646 - Signal <info_empty_q> is assigned but never used.
+    Found 8-bit register for signal <data_out>.
+    Found 1-bit register for signal <single_shot_transmission>.
+    Found 3-bit comparator equal for signal <$n0015> created at line 748.
+    Found 1-bit xor2 for signal <$n0178> created at line 1143.
+    Found 1-bit xor2 for signal <$n0179> created at line 1143.
+    Found 1-bit register for signal <arbitration_lost_irq>.
+    Found 1-bit register for signal <bus_error_irq>.
+    Found 3-bit up counter for signal <clkout_cnt>.
+    Found 1-bit register for signal <clkout_tmp>.
+    Found 1-bit register for signal <data_overrun_irq>.
+    Found 1-bit register for signal <error_irq>.
+    Found 1-bit register for signal <error_passive_irq>.
+    Found 1-bit register for signal <error_status_q>.
+    Found 1-bit register for signal <node_bus_off_q>.
+    Found 1-bit register for signal <node_error_passive_q>.
+    Found 1-bit register for signal <overrun_q>.
+    Found 1-bit register for signal <overrun_status>.
+    Found 1-bit register for signal <receive_buffer_status>.
+    Found 1-bit register for signal <receive_irq>.
+    Found 1-bit register for signal <transmission_complete>.
+    Found 1-bit register for signal <transmit_buffer_status>.
+    Found 1-bit register for signal <transmit_buffer_status_q>.
+    Found 1-bit register for signal <transmit_irq>.
+    Found 1-bit register for signal <tx_successful_q>.
+    Found 4 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  27 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   4 Multiplexer(s).
+Unit <can_registers> synthesized.
+
+
+Synthesizing Unit <can_top>.
+    Related source file is can_top.v.
+WARNING:Xst:646 - Signal <clk_en> is assigned but never used.
+WARNING:Xst:646 - Signal <tx_err_cnt_dummy> is assigned but never used.
+WARNING:Xst:646 - Signal <resync> is assigned but never used.
+WARNING:Xst:646 - Signal <rx_err_cnt_dummy> is assigned but never used.
+    Found 1-bit tristate buffer for signal <tx_o>.
+    Found 8-bit tristate buffer for signal <port_0_io>.
+    Found 8-bit comparator greatequal for signal <$n0005> created at line 636.
+    Found 8-bit comparator lessequal for signal <$n0006> created at line 636.
+    Found 8-bit comparator greatequal for signal <$n0007> created at line 636.
+    Found 8-bit comparator lessequal for signal <$n0008> created at line 636.
+    Found 8-bit register for signal <addr_latched>.
+    Found 8-bit register for signal <data_out>.
+    Found 1-bit register for signal <rd_i_q>.
+    Found 1-bit register for signal <wr_i_q>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred   8 Multiplexer(s).
+	inferred   9 Tristate(s).
+Unit <can_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 211
+  1-bit register                   : 160
+  8-bit register                   : 37
+  2-bit register                   : 1
+  3-bit register                   : 5
+  4-bit register                   : 3
+  9-bit register                   : 2
+  6-bit register                   : 1
+  7-bit register                   : 1
+  15-bit register                  : 1
+# Counters                         : 21
+  4-bit up counter                 : 2
+  6-bit up counter                 : 5
+  7-bit updown counter             : 1
+  3-bit up counter                 : 10
+  5-bit up counter                 : 1
+  9-bit up counter                 : 1
+  8-bit up counter                 : 1
+# Multiplexers                     : 16
+  1-bit 16-to-1 multiplexer        : 1
+  1-bit 19-to-1 multiplexer        : 2
+  2-to-1 multiplexer               : 9
+  1-bit 39-to-1 multiplexer        : 1
+  1-bit 64-to-1 multiplexer        : 2
+  8-bit 8-to-1 multiplexer         : 1
+# Tristates                        : 2
+  1-bit tristate buffer            : 1
+  8-bit tristate buffer            : 1
+# Adders/Subtractors               : 25
+  6-bit adder                      : 4
+  4-bit adder                      : 3
+  4-bit subtractor                 : 2
+  6-bit subtractor                 : 2
+  3-bit adder                      : 3
+  9-bit subtractor                 : 4
+  10-bit subtractor                : 1
+  2-bit adder carry out            : 1
+  4-bit adder carry out            : 1
+  6-bit adder carry out            : 1
+  7-bit addsub                     : 1
+  7-bit subtractor                 : 1
+  9-bit addsub                     : 1
+# Comparators                      : 47
+  3-bit comparator less            : 7
+  4-bit comparator less            : 4
+  6-bit comparator less            : 2
+  6-bit comparator equal           : 1
+  15-bit comparator not equal      : 1
+  9-bit comparator greatequal      : 8
+  9-bit comparator lessequal       : 1
+  9-bit comparator greater         : 3
+  9-bit comparator less            : 2
+  8-bit comparator less            : 1
+  10-bit comparator less           : 1
+  11-bit comparator equal          : 1
+  8-bit comparator greater         : 1
+  8-bit comparator equal           : 2
+  8-bit comparator not equal       : 2
+  3-bit comparator equal           : 1
+  8-bit comparator greatequal      : 2
+  8-bit comparator lessequal       : 2
+  6-bit comparator greater         : 2
+  9-bit comparator equal           : 2
+  4-bit comparator equal           : 1
+# Xors                             : 101
+  1-bit xor2                       : 101
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <can_top> ...
+
+Optimizing unit <can_crc> ...
+
+Optimizing unit <can_acf> ...
+
+Optimizing unit <can_btl> ...
+
+Optimizing unit <can_fifo> ...
+
+Optimizing unit <can_registers> ...
+
+Optimizing unit <can_bsp> ...
+Loading device for application Xst from file '2s300e.nph' in environment C:/Program Files/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Register i_can_bsp_node_bus_off_q equivalent to i_can_registers_node_bus_off_q has been removed
+Found area constraint ratio of 100 (+ 5) on block can_top, actual ratio is 30.
+FlipFlop i_can_btl_sampled_bit has been replicated 1 time(s)
+FlipFlop addr_latched_0 has been replicated 2 time(s)
+FlipFlop addr_latched_2 has been replicated 4 time(s)
+FlipFlop addr_latched_4 has been replicated 4 time(s)
+FlipFlop addr_latched_1 has been replicated 3 time(s)
+FlipFlop addr_latched_3 has been replicated 2 time(s)
+FlipFlop addr_latched_0 has been replicated 1 time(s)
+FlipFlop i_can_registers_MODE_REG0_data_out_0 has been replicated 1 time(s)
+FlipFlop i_can_bsp_tx_pointer_21 has been replicated 1 time(s)
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : can_top.ngr
+Top Level Output File Name         : can_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 18
+
+Macro Statistics :
+# Registers                        : 243
+#      1-bit register              : 184
+#      15-bit register             : 1
+#      2-bit register              : 1
+#      3-bit register              : 14
+#      4-bit register              : 3
+#      6-bit register              : 1
+#      7-bit register              : 1
+#      8-bit register              : 36
+#      9-bit register              : 2
+# Counters                         : 10
+#      4-bit up counter            : 2
+#      5-bit up counter            : 1
+#      6-bit up counter            : 5
+#      8-bit up counter            : 1
+#      9-bit up counter            : 1
+# Multiplexers                     : 27
+#      1-bit 16-to-1 multiplexer   : 1
+#      1-bit 19-to-1 multiplexer   : 2
+#      1-bit 39-to-1 multiplexer   : 1
+#      1-bit 64-to-1 multiplexer   : 2
+#      2-to-1 multiplexer          : 20
+#      8-bit 8-to-1 multiplexer    : 1
+# Tristates                        : 2
+#      1-bit tristate buffer       : 1
+#      8-bit tristate buffer       : 1
+# Adders/Subtractors               : 21
+#      10-bit subtractor           : 1
+#      4-bit adder                 : 3
+#      4-bit adder carry out       : 1
+#      4-bit subtractor            : 2
+#      6-bit adder                 : 4
+#      6-bit adder carry out       : 1
+#      6-bit subtractor            : 2
+#      7-bit addsub                : 1
+#      7-bit subtractor            : 1
+#      9-bit addsub                : 1
+#      9-bit subtractor            : 4
+# Comparators                      : 47
+#      10-bit comparator less      : 1
+#      11-bit comparator equal     : 1
+#      15-bit comparator not equal : 1
+#      3-bit comparator equal      : 1
+#      3-bit comparator less       : 7
+#      4-bit comparator equal      : 1
+#      4-bit comparator less       : 4
+#      6-bit comparator equal      : 1
+#      6-bit comparator greater    : 2
+#      6-bit comparator less       : 2
+#      8-bit comparator equal      : 2
+#      8-bit comparator greatequal : 2
+#      8-bit comparator greater    : 1
+#      8-bit comparator less       : 1
+#      8-bit comparator lessequal  : 2
+#      8-bit comparator not equal  : 2
+#      9-bit comparator equal      : 2
+#      9-bit comparator greatequal : 8
+#      9-bit comparator greater    : 3
+#      9-bit comparator less       : 2
+#      9-bit comparator lessequal  : 1
+
+Cell Usage :
+# BELS                             : 2125
+#      BUF                         : 3
+#      GND                         : 1
+#      LUT1                        : 98
+#      LUT2                        : 194
+#      LUT2_D                      : 4
+#      LUT2_L                      : 14
+#      LUT3                        : 460
+#      LUT3_D                      : 16
+#      LUT3_L                      : 22
+#      LUT4                        : 629
+#      LUT4_D                      : 20
+#      LUT4_L                      : 100
+#      MUXCY                       : 248
+#      MUXF5                       : 100
+#      MUXF6                       : 39
+#      VCC                         : 1
+#      XORCY                       : 176
+# FlipFlops/Latches                : 646
+#      FD                          : 9
+#      FDC                         : 9
+#      FDCE                        : 240
+#      FDCE_1                      : 24
+#      FDCPE                       : 61
+#      FDE                         : 271
+#      FDPE                        : 17
+#      FDRE                        : 15
+# RAMS                             : 3
+#      RAMB4_S1_S1                 : 1
+#      RAMB4_S4_S4                 : 1
+#      RAMB4_S8_S8                 : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 6
+#      IOBUF                       : 8
+#      OBUF                        : 2
+#      OBUFT                       : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s300epq208-6 
+
+ Number of Slices:                     864  out of   3072    28%  
+ Number of Slice Flip Flops:           646  out of   6144    10%  
+ Number of 4 input LUTs:              1557  out of   6144    25%  
+ Number of bonded IOBs:                 17  out of    146    11%  
+ Number of BRAMs:                        3  out of      8    37%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_i                              | BUFGP                  | 649   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 29.552ns (Maximum Frequency: 33.839MHz)
+   Minimum input arrival time before clock: 20.316ns
+   Maximum output required time after clock: 10.090ns
+   Maximum combinational path delay: 13.541ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk_i'
+Delay:               14.776ns (Levels of Logic = 5)
+  Source:            addr_latched_2 (FF)
+  Destination:       i_can_registers_data_out_7 (FF)
+  Source Clock:      clk_i falling
+  Destination Clock: clk_i rising
+
+  Data Path: addr_latched_2 to i_can_registers_data_out_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q          19   0.992   2.950  addr_latched_2 (addr_latched_2)
+     LUT3_D:I2->O         11   0.468   2.350  i_can_registers_Ker316641 (i_can_registers_N31666)
+     LUT3_D:I2->O         12   0.468   2.450  i_can_registers__n00621 (i_can_registers__n0062)
+     LUT4:I3->O            1   0.468   0.920  i_can_registers_Ker3144451 (CHOICE1929)
+     LUT4:I2->O            8   0.468   2.050  i_can_registers_Ker31444103 (i_can_registers_N31446)
+     LUT4_L:I3->LO         1   0.468   0.000  i_can_registers_data_out_tmp<5>242 (i_can_registers_data_out_tmp<5>)
+     FDCE:D                    0.724          i_can_registers_data_out_5
+    ----------------------------------------
+    Total                     14.776ns (4.056ns logic, 10.720ns route)
+                                       (27.4% logic, 72.6% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_i'
+Offset:              20.316ns (Levels of Logic = 10)
+  Source:            rx_i (PAD)
+  Destination:       i_can_bsp_tx_err_cnt_6 (FF)
+  Destination Clock: clk_i rising
+
+  Data Path: rx_i to i_can_bsp_tx_err_cnt_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.797   1.320  rx_i_IBUF (rx_i_IBUF)
+     LUT4_D:I0->O          6   0.468   1.850  i_can_btl_Ker287381 (i_can_btl_N28740)
+     LUT4_D:I2->O          6   0.468   1.850  i_can_btl_Ker287481 (i_can_btl_N28750)
+     LUT4_D:I3->LO         1   0.468   0.100  i_can_btl_go_sync1 (N55900)
+     LUT4:I3->O           11   0.468   2.350  i_can_bsp_error_frame_ended1 (i_can_bsp_error_frame_ended)
+     LUT4:I1->O           13   0.468   2.550  i_can_bsp_go_rx_inter (i_can_bsp_go_rx_inter)
+     LUT4_D:I0->LO         2   0.468   0.100  i_can_bsp_tx_successful (N56036)
+     LUT4:I1->O           10   0.468   2.250  i_can_bsp__n047524 (i_can_bsp__n0475)
+     LUT4_L:I3->LO         1   0.468   0.100  i_can_bsp__n068567 (CHOICE1846)
+     LUT2:I1->O            9   0.468   2.150  i_can_bsp__n068579 (i_can_bsp__n0685)
+     FDCE:CE                   0.687          i_can_bsp_tx_err_cnt_0
+    ----------------------------------------
+    Total                     20.316ns (5.696ns logic, 14.620ns route)
+                                       (28.0% logic, 72.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_i'
+Offset:              10.090ns (Levels of Logic = 3)
+  Source:            i_can_registers_CLOCK_DIVIDER_REG_LOW_data_out_1 (FF)
+  Destination:       clkout_o (PAD)
+  Source Clock:      clk_i rising
+
+  Data Path: i_can_registers_CLOCK_DIVIDER_REG_LOW_data_out_1 to clkout_o
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              5   0.992   1.720  i_can_registers_CLOCK_DIVIDER_REG_LOW_data_out_1 (i_can_registers_CLOCK_DIVIDER_REG_LOW_data_out_1)
+     LUT4:I1->O            1   0.468   0.920  i_can_registers_clkout_SW0 (N39408)
+     LUT4:I2->O            1   0.468   0.920  i_can_registers_clkout (clkout_o_OBUF)
+     OBUF:I->O                 4.602          clkout_o_OBUF (clkout_o)
+    ----------------------------------------
+    Total                     10.090ns (6.530ns logic, 3.560ns route)
+                                       (64.7% logic, 35.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               13.541ns (Levels of Logic = 4)
+  Source:            clk_i (PAD)
+  Destination:       clkout_o (PAD)
+
+  Data Path: clk_i to clkout_o
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     BUFGP:I->O          653   0.663   5.500  clk_i_BUFGP (clk_i_BUFGP)
+     LUT4:I2->O            1   0.468   0.920  i_can_registers_clkout_SW0 (N39408)
+     LUT4:I2->O            1   0.468   0.920  i_can_registers_clkout (clkout_o_OBUF)
+     OBUF:I->O                 4.602          clkout_o_OBUF (clkout_o)
+    ----------------------------------------
+    Total                     13.541ns (6.201ns logic, 7.340ns route)
+                                       (45.8% logic, 54.2% route)
+
+=========================================================================
+CPU : 31.15 / 31.53 s | Elapsed : 31.00 / 31.00 s
+ 
+--> 
+
+Total memory usage is 91176 kilobytes
+
+

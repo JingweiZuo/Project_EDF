@@ -1,0 +1,41 @@
+Release 6.1i - ngdbuild G.23
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+e:\program\fpga_program\for_fpga\can\ise\canbus/_ngo -i -p xc2s300e-pq208-6
+can_top.ngc can_top.ngd 
+
+Reading NGO file "e:/program/fpga_program/for_fpga/can/ise/canbus/can_top.ngc"
+...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+INFO:NgdBuild:526 - On the RAMB4_S8_S8 symbol "i_can_bsp_i_can_fifo_fifo", the
+   following properties are undefined: INIT_00, INIT_01, INIT_02, INIT_03,
+   INIT_04, INIT_05, INIT_06, INIT_07, INIT_08, INIT_09, INIT_0A, INIT_0B,
+   INIT_0C, INIT_0D, INIT_0E, INIT_0F. A default value of all zeroes will be
+   used.
+INFO:NgdBuild:526 - On the RAMB4_S4_S4 symbol "i_can_bsp_i_can_fifo_info_fifo",
+   the following properties are undefined: INIT_00, INIT_01, INIT_02, INIT_03,
+   INIT_04, INIT_05, INIT_06, INIT_07, INIT_08, INIT_09, INIT_0A, INIT_0B,
+   INIT_0C, INIT_0D, INIT_0E, INIT_0F. A default value of all zeroes will be
+   used.
+INFO:NgdBuild:526 - On the RAMB4_S1_S1 symbol
+   "i_can_bsp_i_can_fifo_overrun_fifo", the following properties are undefined:
+   INIT_00, INIT_01, INIT_02, INIT_03, INIT_04, INIT_05, INIT_06, INIT_07,
+   INIT_08, INIT_09, INIT_0A, INIT_0B, INIT_0C, INIT_0D, INIT_0E, INIT_0F. A
+   default value of all zeroes will be used.
+WARNING:NgdBuild:477 - clock net 'clk_i_BUFGP' has non-clock connections. These
+   problematic connections include:
+     pin I2 on block i_can_registers_clkout_SW0 with type LUT4
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Total memory usage is 41736 kilobytes
+
+Writing NGD file "can_top.ngd" ...
+
+Writing NGDBUILD log file "can_top.bld"...

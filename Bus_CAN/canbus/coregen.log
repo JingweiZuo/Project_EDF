@@ -1,0 +1,22 @@
+# Xilinx CORE Generator 6.1i
+# User = ΑυθΊ
+Initializing default project...
+Loading plug-ins...
+All runtime messages will be recorded in E:\program\FPGA_PROGRAM\FOR_FPGA\CAN\ise\canbus\coregen.log
+NEWPROJECT .
+SETPROJECT .
+# busformat=BusFormatAngleBracketNotRipped
+# designflow=VHDL
+# expandedprojectpath=E:\program\FPGA_PROGRAM\FOR_FPGA\CAN\ise\canbus
+# flowvendor=Foundation_iSE
+# formalverification=None
+# simulationoutputproducts=VHDL
+# xilinxfamily=Virtex2
+# outputoption=DesignFlow
+# overwritefiles=Default
+# simvendor=ModelSim
+# expandedprojectpath=E:\program\FPGA_PROGRAM\FOR_FPGA\CAN\ise\canbus
+Set current Project to E:\program\FPGA_PROGRAM\FOR_FPGA\CAN\ise\canbus
+SET BusFormat = BusFormatAngleBracketNotRipped
+SETXIPCPORTHOST 2707
+XIPCPJSENDCORES spartan2e

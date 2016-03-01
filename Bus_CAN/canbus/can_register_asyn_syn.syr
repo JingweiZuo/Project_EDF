@@ -1,0 +1,258 @@
+Release 6.1i - xst G.23
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.20 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.20 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: can_register_asyn_syn.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : can_register_asyn_syn.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : can_register_asyn_syn
+Output Format                      : NGC
+Target Device                      : xc2s300e-6-pq208
+
+---- Source Options
+Top Module Name                    : can_register_asyn_syn
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : can_register_asyn_syn.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+WARNING:Xst:1885 - LSO file is empty, default list of libraries is used
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "can_register_asyn_syn.v"
+Module <can_register_asyn_syn> compiled
+No errors in compilation
+Analysis of file <can_register_asyn_syn.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <can_register_asyn_syn>.
+WARNING:Xst:916 - can_register_asyn_syn.v line 103: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn_syn.v line 105: Delay is ignored for synthesis.
+WARNING:Xst:916 - can_register_asyn_syn.v line 107: Delay is ignored for synthesis.
+Module <can_register_asyn_syn> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <can_register_asyn_syn>.
+    Related source file is can_register_asyn_syn.v.
+    Found 8-bit register for signal <data_out>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <can_register_asyn_syn> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 1
+  8-bit register                   : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <can_register_asyn_syn> ...
+Loading device for application Xst from file '2s300e.nph' in environment C:/Program Files/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block can_register_asyn_syn, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : can_register_asyn_syn.ngr
+Top Level Output File Name         : can_register_asyn_syn
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 20
+
+Macro Statistics :
+# Registers                        : 1
+#      8-bit register              : 1
+
+Cell Usage :
+# BELS                             : 9
+#      LUT2                        : 9
+# FlipFlops/Latches                : 8
+#      FDCE                        : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 11
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s300epq208-6 
+
+ Number of Slices:                       5  out of   3072     0%  
+ Number of Slice Flip Flops:             8  out of   6144     0%  
+ Number of 4 input LUTs:                 9  out of   6144     0%  
+ Number of bonded IOBs:                 19  out of    146    13%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 6.152ns
+   Maximum output required time after clock: 6.514ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              6.152ns (Levels of Logic = 2)
+  Source:            rst_sync (PAD)
+  Destination:       data_out_6 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst_sync to data_out_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   0.797   2.150  rst_sync_IBUF (rst_sync_IBUF)
+     LUT2:I1->O            8   0.468   2.050  _n00031 (_n0003)
+     FDCE:CE                   0.687          data_out_0
+    ----------------------------------------
+    Total                      6.152ns (1.952ns logic, 4.200ns route)
+                                       (31.7% logic, 68.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              6.514ns (Levels of Logic = 1)
+  Source:            data_out_7 (FF)
+  Destination:       data_out<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: data_out_7 to data_out<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.992   0.920  data_out_7 (data_out_7)
+     OBUF:I->O                 4.602          data_out_7_OBUF (data_out<7>)
+    ----------------------------------------
+    Total                      6.514ns (5.594ns logic, 0.920ns route)
+                                       (85.9% logic, 14.1% route)
+
+=========================================================================
+CPU : 2.46 / 2.92 s | Elapsed : 2.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 61224 kilobytes
+
+

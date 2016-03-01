@@ -1,0 +1,46 @@
+# XST flow : Creating project file
+can_top.prj
+# xst flow : Check Syntax
+can_top.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/can_top.xst
+xst
+# xst flow : RunXST
+can_top.prj
+__projnav/can_top.xst
+./xst
+# XST flow : Creating project file
+can_fifo.prj
+# xst flow : Check Syntax
+can_fifo.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/can_fifo.xst
+xst
+# xst flow : RunXST
+can_fifo.prj
+__projnav/can_fifo.xst
+./xst
+# XST flow : Creating project file
+can_register_asyn_syn.prj
+# xst flow : Check Syntax
+can_register_asyn_syn.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/can_register_asyn_syn.xst
+xst
+# xst flow : RunXST
+can_register_asyn_syn.prj
+__projnav/can_register_asyn_syn.xst
+./xst
+# XST flow : Creating project file
+can_top.prj
+# xst flow : RunXST
+can_top.prj
+__projnav/can_top.xst
+./xst
+# XST flow : Creating project file
+can_registers.prj
+# xst flow : Check Syntax
+can_registers.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/can_registers.xst
+xst

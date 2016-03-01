@@ -1,0 +1,1 @@
+set allSynthModules {can_register_asyn_syn.MOD can_register_asyn.MOD can_register.MOD can_registers.MOD can_btl.MOD can_crc.MOD can_acf.MOD can_fifo.MOD can_ibo.MOD can_bsp.MOD can_top.MOD}

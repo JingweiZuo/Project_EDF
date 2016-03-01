@@ -1,0 +1,29 @@
+Release 6.1i - xst G.23
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.82 s | Elapsed : 0.00 / 0.00 s
+ 
+--> WARNING:Xst:1885 - LSO file is empty, default list of libraries is used
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "can_register_asyn_syn.v"
+Module <can_register_asyn_syn> compiled
+Compiling source file "can_register_asyn.v"
+Module <can_register_asyn> compiled
+Compiling source file "can_register.v"
+Module <can_register> compiled
+Compiling source file "can_registers.v"
+Compiling include file "can_defines.v"
+Module <can_registers> compiled
+No errors in compilation
+Analysis of file <can_registers.prj> succeeded.
+ 
+CPU : 0.42 / 1.24 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 47664 kilobytes
+
+
