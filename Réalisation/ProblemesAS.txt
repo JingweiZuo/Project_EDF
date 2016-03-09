@@ -1,0 +1,10 @@
+On rencontre quelques problèmes.
+
+Pour permettre des configurations plus faciles, nous voulions que la carte passe elle-même du mode PROG au mode RUN.
+
+Les pins à modifier sont les pins MSEL mais Quartus ne permet pas de les assigner.
+http://www.alteraforum.com/forum/showthread.php?t=46276
+http://www.alteraforum.com/forum/showthread.php?t=29605
+http://www.alteraforum.com/forum/showthread.php?t=45057&p=190385#post190385
+
+

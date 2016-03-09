@@ -1,0 +1,91 @@
+Ce fichier est là pour présenter comment programmer la carte Cyclone II en Active Serial.
+La carte ne perd pas le code même si elle s'éteint.
+
+
+Etape 1: Créer le fichier VHDL
+
+	Ouvrir Quartus
+	Créer un nouveau projet
+		Device : Cyclone II EPC20F484C7 dans notre cas
+	Créer un nouveau fichier VHDL juste pour tester
+		library ieee;
+		use ieee.std_logic_1164.all;
+
+		entity TestAS2 is
+		port(
+			switch : in std_logic;
+			led : out std_logic
+			);
+		end entity;
+
+		architecture dataflow of TestAS2 is
+		signal led_0 : std_logic;
+		begin
+			process(switch)
+			begin
+				if (switch = '0') then
+					led_0 <= '0';
+				else
+					led_0 <= '1';
+				end if;
+			end process;
+			led <= led_0;
+		end dataflow;
+	Compiler
+
+
+
+Etape 2: Vérifier que le code fonctionne sur la carte avant tout
+
+	Connecter la carte à l'ordinateur
+	Tools -> Programmer
+		Mode : JTAG
+		Si vous ne pouvez pas détectez la carte :
+			Ouvrir un terminal
+			Se connecter en tant que root
+			Verifier la connexion USB
+				http://www.fpga-dev.com/altera-usb-blaster-with-ubuntu/
+				http://www.alteraforum.com/forum/showthread.php?t=33174
+			Aller dans le dossier de votre altera
+				altera/13.0/quartus/bin
+			./jtagconfig
+				Si vous voyez : Unable to lock chain (Insufficient port permissions)
+				killall jtagd
+				./jtagd
+				./jtagconfig
+					Vous devriez voir : 1) USB-Blaster [2-1.2]
+  					020B30DD   EP2C(15|20)
+  		Vous devriez pouvoir détecter la carte
+  			Retournez dans le Programmer
+  			Cliquez sur Hardware Setup
+  			Sélectionnez USB blaster
+  			Close
+  			Cliquez sur auto detect
+  		Ajoutez le fichier .sof
+  		Cliquez sur start
+  		Vérifiez le code sur la carte (le switch0 allume la led0)
+  		
+  		
+Etape 3: Convertir le code en .pof
+	http://quartushelp.altera.com/14.1/mergedProjects/program/pgm/pgm_pro_set_up_output_prog_files.htm
+	
+	Dans quartus
+	File -> Convert Programming File
+		Sélectionnez Programmer Object File (.pof)
+		Configuration Device : EPCS4
+		Mode : Active Serial
+		Ajoutez le fichier .sof correspondant à votre code
+		Generate
+		
+		
+Etape 4: Implémenter le code .pof sur la carte
+	
+	Le switch RUN/PROG doit être sur PROG
+	Tools -> Programmer
+	Mode : Active Serial Programming
+	Ajouter le fichier .pof
+	Cochez Program/Configure
+	Cliquez sur Start
+	Une fois fini, le switch RUN/PROG doit être remis sur RUN
+	Eteignez et rallumez la carte
+	Le code est toujours là
